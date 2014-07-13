@@ -4,20 +4,18 @@ Awesome Haskell
 A curated list of awesome Haskell frameworks, libraries and software. Inspired by awesome projects line.
 
 - [Awesome Haskell](#awesome-haskell)
-    - [_Basics](#basics)
+    - [_Basics](#_basics)
     - [Algorithmics](#algorithmics)
     - [Audio, Music & Sound](#audio-music-sound)
-    - [Authentication](#authentication)
     - [Category Theory](#category-theory)
-    - [Cloud](#cloud)
     - [Compilers](#compilers)
     - [Concurrency & Parallelism](#concurrency-parallelism)
     - [Cryptography & Hashing](#cryptography-hashing)
-    - [Data Access](#dada-access)
+    - [Data Access](#data-access)
     - [Data Formats](#data-formats)
     - [Data Science](#data-science)
     - [Database](#database)
-    - [Development Tools](#Development-tools)
+    - [Development Tools](#development-tools)
     - [Documentation](#documentation)
     - [Distributed Computing](#distributed-computing)
     - [Editors](#editors)
@@ -28,9 +26,9 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
     - [Network](#network)
     - [Number Theory](#number-theory)
     - [Web / Frameworks](#web-frameworks)
-    - [Text Processing](#markup-processing)
+    - [Text Processing](#text-processing)
     - [Messaging](#messaging)
-    - [Language](#language)
+    - [Languages](#languages)
     - [Operating Systems](#operating-systems)
     - [Platforms](#platforms)
     - [Programming](#programming)
@@ -104,13 +102,6 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 * [Monad](http://hackage.haskell.org/packages/#cat:Monad) - a curated Hackage list.
 * [Monads](http://hackage.haskell.org/packages/#cat:Monads) - a curated Hackage list.
 * [Semigroups](http://hackage.haskell.org/packages/#cat:Semigroups) - a curated Hackage list.
-
-## Cloud
-* [Cloud](http://www.haskell.org/haskellwiki/Web/Cloud) - Official Website Resources.
-
-    ---
-* [AWS](http://hackage.haskell.org/packages/#cat:AWS) - a curated Hackage list.
-* [Cloud](http://hackage.haskell.org/packages/#cat:Cloud) - a curated Hackage list.
 
 ## Compilers
 
