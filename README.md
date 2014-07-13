@@ -27,7 +27,7 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
     - [Graphics](#graphics)
     - [Network](#network)
     - [Number Theory](#number-theory)
-    - [Web Frameworks](#frameworks)
+    - [Web / Frameworks](#web-frameworks)
     - [Text Processing](#markup-processing)
     - [Messaging](#messaging)
     - [Language](#language)
@@ -262,7 +262,7 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 * [Math](http://hackage.haskell.org/packages/#cat:Math) - a curated Hackage list.
 
 
-## Web/Frameworks
+## Web / Frameworks
 
 * [Web Servers](http://www.haskell.org/haskellwiki/Web/Servers) - Official Website Resources.
 * [Web Frameworks](http://www.haskell.org/haskellwiki/Web/Frameworks) - Official Website Resources.
