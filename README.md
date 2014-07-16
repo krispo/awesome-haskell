@@ -1,7 +1,7 @@
 Awesome Haskell
 =============
 
-A curated list of awesome Haskell frameworks, libraries and software. Inspired by awesome projects line.
+A curated list of awesome Haskell frameworks, libraries and software. Inspired by [awesome](https://github.com/bayandin/awesome-awesomeness) projects line.
 
 - [Awesome Haskell](#awesome-haskell)
     - [_Basics](#_basics)
@@ -311,7 +311,7 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 
     ---
 * [BSD](http://hackage.haskell.org/packages/#cat:BSD) - a curated Hackage list.
-* [Fedora(http://hackage.haskell.org/packages/#cat:Fedora) - a curated Hackage list.
+* [Fedora](http://hackage.haskell.org/packages/#cat:Fedora) - a curated Hackage list.
 * [Gentoo](http://hackage.haskell.org/packages/#cat:Gentoo) - a curated Hackage list.
 * [Linux](http://hackage.haskell.org/packages/#cat:Linux) - a curated Hackage list.
 * [System](http://hackage.haskell.org/packages/#cat:System) - a curated Hackage list.
