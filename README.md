@@ -25,7 +25,7 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
     - [Graphics](#graphics)
     - [Network](#network)
     - [Number Theory](#number-theory)
-    - [Web / Frameworks](#web-frameworks)
+    - [Web / Frameworks](#web--frameworks)
     - [Text Processing](#text-processing)
     - [Messaging](#messaging)
     - [Languages](#languages)
