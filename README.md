@@ -386,5 +386,12 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 * [wiwinwlh](http://dev.stephendiehl.com/hask/) - amazing guide for all kinds of things.
 * [Revised report](http://www.haskell.org/onlinereport/) - Haskell 98 Language and Libraries. The Revised Report.
 
+### Video Tutorials
 
+* [Redoing Make - Haskell from Scratch](http://www.youtube.com/playlist?list=PLxj9UAX4Em-Ij4TKwKvo-SLp-Zbv-hB4B)
+* [Haskell - Code Deconstructed](http://www.youtube.com/playlist?list=PLxj9UAX4Em-IBXkvcC3MycLlcxyoi7v8B)
+* [Adventures in Haskell - A Calculator](http://www.youtube.com/playlist?list=PL_xuff3BkASMOzBr0hKVKLuSnU4UIinKx)
+* [Sed implementation in Haskell](http://www.youtube.com/playlist?list=PLUQzXLQ6jvHL_k3QOMKXehVoZdk-sKtHd)
+* [LazyCasts](http://www.youtube.com/user/LazyCasts)
+* [Haskell Development Workflow Demo](http://www.youtube.com/watch?v=Li6oaO8x2VY)
  
