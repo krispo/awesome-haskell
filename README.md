@@ -1,7 +1,7 @@
 Awesome Haskell
 =============
 
-A curated list of awesome Haskell frameworks, libraries and software. Inspired by [awesome](https://github.com/bayandin/awesome-awesomeness) projects line.
+A curated list of awesome Haskell frameworks, libraries and software. Inspired by [awesome](https://github.com/bayandin/awesome-awesomeness) projects line. This awesome collection is also available on [Haskell.ZEEF.com](https://haskell.zeef.com/konstantin.skipor).
 
 - [Awesome Haskell](#awesome-haskell)
     - [_Basics](#_basics)
