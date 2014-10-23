@@ -43,15 +43,15 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 
 ## _Basics
 
-* [The Haskell Platform](http://www.haskell.org/platform/contents.html) - is a comprehensive, robust development environment for programming in Haskell.
+* [The Haskell Platform](http://www.haskell.org/platform/contents.html) - a comprehensive, robust development environment for programming in Haskell.
 * [GHC](http://www.haskell.org/ghc/) - the state-of-the-art optimizing native code compiler for Haskell.
 * [GHCi](http://www.haskell.org/ghc/docs/latest/html/users_guide/ghci.html) - a bytecode interpreter and interactive REPL environment for Haskell.
-* [Cabal](http://www.haskell.org/cabal/) - is a system for building and packaging Haskell libraries and programs. 
-* [Haddoc](http://www.haskell.org/haddock/) - a tool for automatically generating documentation from annotated Haskell source code.
+* [Cabal](http://www.haskell.org/cabal/) - a system for building and packaging Haskell libraries and programs. 
+* [Haddock](http://www.haskell.org/haddock/) - a tool for automatically generating documentation from annotated Haskell source code.
 * [Happy](http://www.haskell.org/happy/) - The Parser Generator for Haskell.
 * [Alex](http://www.haskell.org/alex/) - a lexical analyser generator for Haskell.
-* [Hackage](http://hackage.haskell.org/) - s the Haskell community's central package archive.
-* [Hoogle](http://www.haskell.org/hoogle/) - is a Haskell API search engine, which allows you to search many standard Haskell libraries by either function name, or by approximate type signature.
+* [Hackage](http://hackage.haskell.org/) - the Haskell community's central package archive.
+* [Hoogle](http://www.haskell.org/hoogle/) - a Haskell API search engine, which allows you to search many standard Haskell libraries by either function name, or by approximate type signature.
 * [Hayoo](http://holumbus.fh-wedel.de/hayoo/hayoo.html) - will search all packages from Hackage, including all function and type definitions.
 
 ## Algorithmics
