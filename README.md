@@ -37,6 +37,7 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 - [Resources](#resources)
     - [Websites](#websites)
     - [Community](#community)
+    - [Courses](#courses)
     - [Packages](#packages)
     - [Tutorials](#tutorials)
 
@@ -371,6 +372,10 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 * [Planet Haskell](http://planet.haskell.org/)
 * [Haskell Communities and Activities Report](http://www.haskell.org/haskellwiki/Haskell_Communities_and_Activities_Report)
 
+## Courses
+
+* [Introduction to Functional Programming](https://www.edx.org/course/delftx/delftx-fp101x-introduction-functional-2126) - Fall 2014 MOOC on edX by DelftX featuring Haskell as the primary language of focus.
+
 ## Packages
 
 * [Hackage](http://hackage.haskell.org/) - is the Haskell community's central package archive.
@@ -396,4 +401,4 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 * [Sed implementation in Haskell](http://www.youtube.com/playlist?list=PLUQzXLQ6jvHL_k3QOMKXehVoZdk-sKtHd)
 * [LazyCasts](http://www.youtube.com/user/LazyCasts)
 * [Haskell Development Workflow Demo](http://www.youtube.com/watch?v=Li6oaO8x2VY)
- 
+* [Learn You a Haskell](https://www.youtube.com/watch?v=NBKnY7Z_w3I&list=PLPqPwGvHPSZB-urE6QFjKYt6AGXcZqJUh) - Video lectures to accompany the book "Learn You a Haskell for Great Good!"
