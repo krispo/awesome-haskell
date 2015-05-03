@@ -4,7 +4,7 @@ Awesome Haskell
 A curated list of awesome Haskell frameworks, libraries and software. Inspired by [awesome](https://github.com/bayandin/awesome-awesomeness) projects line.
 
 - [Awesome Haskell](#awesome-haskell)
-    - [_Basics](#_basics)
+    - [Basics](#basics)
     - [Algorithmics](#algorithmics)
     - [Audio, Music & Sound](#audio-music-sound)
     - [Category Theory](#category-theory)
@@ -42,7 +42,7 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
     - [Tutorials](#tutorials)
 
 
-## _Basics
+## Basics
 
 * [The Haskell Platform](http://www.haskell.org/platform/contents.html) - a comprehensive, robust development environment for programming in Haskell.
 * [GHC](http://www.haskell.org/ghc/) - the state-of-the-art optimizing native code compiler for Haskell.
