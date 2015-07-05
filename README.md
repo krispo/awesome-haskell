@@ -397,7 +397,6 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 * [wiwinwlh](http://dev.stephendiehl.com/hask/) - amazing guide for all kinds of things.
 * [LearnYouHaskell](http://learnyouahaskell.com/chapters) - Learn You a Haskell for Great Good!
 * [Revised report](http://www.haskell.org/onlinereport/) - Haskell 98 Language and Libraries. The Revised Report.
-* [Concurrency & Parallelism](http://chimera.labs.oreilly.com/books/1230000000929/index.html) - (Book) Parallel and Concurrent Programming in Haskell.
 
 
 ### Video Tutorials
