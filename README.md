@@ -40,6 +40,7 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
     - [Courses](#courses)
     - [Packages](#packages)
     - [Tutorials](#tutorials)
+- [License](#license)
 
 
 ## _Basics
@@ -396,6 +397,7 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 * [wiwinwlh](http://dev.stephendiehl.com/hask/) - amazing guide for all kinds of things.
 * [LearnYouHaskell](http://learnyouahaskell.com/chapters) - Learn You a Haskell for Great Good!
 * [Revised report](http://www.haskell.org/onlinereport/) - Haskell 98 Language and Libraries. The Revised Report.
+* [Concurrency & Parallelism](http://chimera.labs.oreilly.com/books/1230000000929/index.html) - (Book) Parallel and Concurrent Programming in Haskell.
 
 
 ### Video Tutorials
@@ -407,3 +409,7 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 * [LazyCasts](http://www.youtube.com/user/LazyCasts)
 * [Haskell Development Workflow Demo](http://www.youtube.com/watch?v=Li6oaO8x2VY)
 * [Learn You a Haskell](https://www.youtube.com/watch?v=NBKnY7Z_w3I&list=PLPqPwGvHPSZB-urE6QFjKYt6AGXcZqJUh) - Video lectures to accompany the book "Learn You a Haskell for Great Good!"
+
+# License
+
+[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
