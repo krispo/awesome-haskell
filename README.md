@@ -126,6 +126,9 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 * [Functional Reactive Programming](http://hackage.haskell.org/packages/#cat:FRP) - a curated Hackage list.
 * [Parallelism](http://hackage.haskell.org/packages/#cat:Parallelism) - a curated Hackage list.
 
+    ---
+* [Concurrency & Parallelism](http://chimera.labs.oreilly.com/books/1230000000929/index.html) - (Book) Parallel and Concurrent Programming in Haskell
+
 ## Cryptography & Hashing
 
 * [Cryptography & Hashing](http://www.haskell.org/haskellwiki/Applications_and_libraries/Cryptography) - Official Website Resources.
