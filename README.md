@@ -4,7 +4,7 @@ Awesome Haskell
 A curated list of awesome Haskell frameworks, libraries and software. Inspired by [awesome](https://github.com/bayandin/awesome-awesomeness) projects line.
 
 - [Awesome Haskell](#awesome-haskell)
-    - [_Basics](#_basics)
+    - [Basics](#basics)
     - [Algorithmics](#algorithmics)
     - [Audio, Music & Sound](#audio-music-sound)
     - [Category Theory](#category-theory)
@@ -43,7 +43,7 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 - [License](#license)
 
 
-## _Basics
+## Basics
 
 * [Alex](http://www.haskell.org/alex/) - a lexical analyser generator for Haskell.
 * [Cabal](http://www.haskell.org/cabal/) - a system for building and packaging Haskell libraries and programs. 
