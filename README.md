@@ -46,7 +46,7 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 ## _Basics_
 
 * [Alex](http://www.haskell.org/alex/) - a lexical analyser generator for Haskell.
-* [Cabal](http://www.haskell.org/cabal/) - a system for building and packaging Haskell libraries and programs. 
+* [Cabal](http://www.haskell.org/cabal/) - a system for building and packaging Haskell libraries and programs.
 * [GHC](http://www.haskell.org/ghc/) - the state-of-the-art optimizing native code compiler for Haskell.
 * [GHCi](http://www.haskell.org/ghc/docs/latest/html/users_guide/ghci.html) - a bytecode interpreter and interactive REPL environment for Haskell.
 * [Hackage](http://hackage.haskell.org/) - the Haskell community's central package archive.
@@ -283,7 +283,7 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 ## Text Processing
 
 * [Pandoc](http://johnmacfarlane.net/pandoc/) - is a library for converting from one markup format to another, and a command-line tool that uses this library.
- 
+
 
 ## Messaging
 
@@ -305,7 +305,7 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 * [Javascript](http://hackage.haskell.org/packages/#cat:Javascript) - a curated Hackage list.
 * [LaTex](http://hackage.haskell.org/packages/#cat:LaTeX) - a curated Hackage list.
 * [Lua](http://hackage.haskell.org/packages/#cat:LUA) - a curated Hackage list.
-    
+
     ---
 *Additional languages on top of Haskell*
 * [Fay](http://fay-lang.org/) - a proper subset of Haskell that compiles to JavaScript.
@@ -380,7 +380,7 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 
 ## Courses
 
-* [Introduction to Functional Programming](https://www.edx.org/course/delftx/delftx-fp101x-introduction-functional-2126) - Fall 2014 MOOC on edX by DelftX featuring Haskell as the primary language of focus.
+* [Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0) - Fall 2014 MOOC on edX by DelftX featuring Haskell as the primary language of focus.
 
 ## Packages
 
