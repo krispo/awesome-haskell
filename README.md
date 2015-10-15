@@ -380,7 +380,7 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 
 ## Courses
 
-* [Introduction to Functional Programming](https://www.edx.org/course/delftx/delftx-fp101x-introduction-functional-2126) - Fall 2014 MOOC on edX by DelftX featuring Haskell as the primary language of focus.
+* [Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0) - Fall 2014 MOOC on edX by DelftX featuring Haskell as the primary language of focus.
 
 ## Packages
 
