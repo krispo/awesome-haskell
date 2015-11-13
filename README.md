@@ -45,22 +45,22 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 
 ## _Basics_
 
-* [Alex](http://www.haskell.org/alex/) - a lexical analyser generator for Haskell.
-* [Cabal](http://www.haskell.org/cabal/) - a system for building and packaging Haskell libraries and programs.
-* [GHC](http://www.haskell.org/ghc/) - the state-of-the-art optimizing native code compiler for Haskell.
-* [GHCi](http://www.haskell.org/ghc/docs/latest/html/users_guide/ghci.html) - a bytecode interpreter and interactive REPL environment for Haskell.
+* [Alex](https://www.haskell.org/alex/) - a lexical analyser generator for Haskell.
+* [Cabal](https://www.haskell.org/cabal/) - a system for building and packaging Haskell libraries and programs.
+* [GHC](https://www.haskell.org/ghc/) - the state-of-the-art optimizing native code compiler for Haskell.
+* [GHCi](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/ghci.html) - a bytecode interpreter and interactive REPL environment for Haskell.
 * [Hackage](http://hackage.haskell.org/) - the Haskell community's central package archive.
-* [Haddock](http://www.haskell.org/haddock/) - a tool for automatically generating documentation from annotated Haskell source code.
-* [Happy](http://www.haskell.org/happy/) - The Parser Generator for Haskell.
-* [Hayoo](http://holumbus.fh-wedel.de/hayoo/hayoo.html) - will search all packages from Hackage, including all function and type definitions.
-* [Hoogle](http://www.haskell.org/hoogle/) - a Haskell API search engine, which allows you to search many standard Haskell libraries by either function name, or by approximate type signature.
+* [Haddock](https://www.haskell.org/haddock/) - a tool for automatically generating documentation from annotated Haskell source code.
+* [Happy](https://www.haskell.org/happy/) - The Parser Generator for Haskell.
+* [Hayoo](http://hayoo.fh-wedel.de/) - will search all packages from Hackage, including all function and type definitions.
+* [Hoogle](https://www.haskell.org/hoogle/) - a Haskell API search engine, which allows you to search many standard Haskell libraries by either function name, or by approximate type signature.
 * [hsenv](https://github.com/Paczesiowa/hsenv/) - a tool to create isolated Haskell environments. This allows a project to use a GHC version different of the currently installed.
 * [Stack](https://github.com/commercialhaskell/stack) - a cross-platform tool to help on building Haskell projects. It includes support to create isolated Haskell environments and to automatically manage the dependencies of a project.
-* [The Haskell Platform](http://www.haskell.org/platform/contents.html) - a comprehensive, robust development environment for programming in Haskell.
+* [The Haskell Platform](https://www.haskell.org/platform/contents.html) - a comprehensive, robust development environment for programming in Haskell.
 
 ## Algorithmics
 
-* [Theorem Provers](http://www.haskell.org/haskellwiki/Applications_and_libraries/Theorem_provers) - Official Website Resources.
+* [Theorem Provers](https://wiki.haskell.org/Applications_and_libraries/Theorem_provers) - Official Website Resources.
 
     ---
 * [Algorithm](http://hackage.haskell.org/packages/#cat:Algorithm) - a curated Hackage list.
@@ -81,7 +81,7 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 
 ## Audio, Music & Sound
 
-* [Audio, music and sound](http://www.haskell.org/haskellwiki/Applications_and_libraries/Music_and_sound) - official Website Resources.
+* [Audio, music and sound](https://wiki.haskell.org/Applications_and_libraries/Music_and_sound) - official Website Resources.
 
     ---
 * [Audio](http://hackage.haskell.org/packages/#cat:Audio) - a curated Hackage list.
@@ -109,8 +109,8 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 
 ## Compilers
 
-* [Compilers & Interpreters](http://www.haskell.org/haskellwiki/Applications_and_libraries/Compilers_and_interpreters) - Official Website Resources.
-* [Compiler construction, lexing, parsing, pretty printing](http://www.haskell.org/haskellwiki/Applications_and_libraries/Compiler_tools) - Official Website Resources.
+* [Compilers & Interpreters](https://wiki.haskell.org/Applications_and_libraries/Compilers_and_interpreters) - Official Website Resources.
+* [Compiler construction, lexing, parsing, pretty printing](https://wiki.haskell.org/Applications_and_libraries/Compiler_tools) - Official Website Resources.
 
     ---
 * [Compiler](http://hackage.haskell.org/packages/#cat:Compiler) - a curated Hackage list.
@@ -119,7 +119,7 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 
 ## Concurrency & Parallelism
 
-* [Concurrency & Parallelism](http://www.haskell.org/haskellwiki/Applications_and_libraries/Concurrency_and_parallelism) - Official Website Info.
+* [Concurrency & Parallelism](https://wiki.haskell.org/Applications_and_libraries/Concurrency_and_parallelism) - Official Website Info.
 
     ---
 * [Concurrency](http://hackage.haskell.org/packages/#cat:Concurrency) - a curated Hackage list.
@@ -132,7 +132,7 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 
 ## Cryptography & Hashing
 
-* [Cryptography & Hashing](http://www.haskell.org/haskellwiki/Applications_and_libraries/Cryptography) - Official Website Resources.
+* [Cryptography & Hashing](https://wiki.haskell.org/Applications_and_libraries/Cryptography) - Official Website Resources.
 
     ---
 * [Crypto](http://hackage.haskell.org/packages/#cat:Crypto) - a curated Hackage list.
@@ -151,8 +151,8 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 * [RSS](http://hackage.haskell.org/packages/#cat:RSS) - a curated Hackage list.
 
 ## Data Science
-* [Linguistics and natural language processing](http://www.haskell.org/haskellwiki/Applications_and_libraries/Linguistics) - Official Website Resources.
-* [Robotics](http://www.haskell.org/haskellwiki/Applications_and_libraries/Robotics) - Official Website Resources.
+* [Linguistics and natural language processing](https://wiki.haskell.org/Applications_and_libraries/Linguistics) - Official Website Resources.
+* [Robotics](https://wiki.haskell.org/Applications_and_libraries/Robotics) - Official Website Resources.
 
     ---
 * [Artificial Intelligence](http://hackage.haskell.org/packages/#cat:AI) - a curated Hackage list.
@@ -173,7 +173,7 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 * [Robotics](http://hackage.haskell.org/packages/#cat:Robotics) - a curated Hackage list.
 
 ## Data Structures
-* [Data Structures & IO Libraries](http://www.haskell.org/haskellwiki/Applications_and_libraries/Data_structures) - Official Website Resources.
+* [Data Structures & IO Libraries](https://wiki.haskell.org/Applications_and_libraries/Data_structures) - Official Website Resources.
 
     ---
 * [Advanced Structures](http://hackage.haskell.org/packages/#cat:Structures) - a curated Hackage list.
@@ -187,13 +187,13 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 * [Vector](http://hackage.haskell.org/packages/#cat:Vector) - a curated Hackage list.
 
 ## Database
-* [Database Interfaces](http://www.haskell.org/haskellwiki/Applications_and_libraries/Database_interfaces) - Official Website Resources.
+* [Database Interfaces](https://wiki.haskell.org/Applications_and_libraries/Database_interfaces) - Official Website Resources.
 
     ---
 * [Database](http://hackage.haskell.org/packages/#cat:Database) - a curated Hackage list.
 
 ## Development Tools
-* [Development Libraries and Tools](http://www.haskell.org/haskellwiki/Development_Libraries_and_Tools) - Official Website Resources.
+* [Development Libraries and Tools](https://wiki.haskell.org/Development_Libraries_and_Tools) - Official Website Resources.
 
     ---
 * [Debug](http://hackage.haskell.org/packages/#cat:Debug) - a curated Hackage list.
@@ -218,36 +218,36 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 
 ## Editors
 
-* [Editors written in Haskell](http://www.haskell.org/haskellwiki/Applications_and_libraries/Editors) - Official Website Resources.
-* [editors for Haskell](http://www.haskell.org/haskellwiki/Editors) - Official Website Resources.
+* [Editors written in Haskell](https://wiki.haskell.org/Applications_and_libraries/Editors) - Official Website Resources.
+* [editors for Haskell](https://wiki.haskell.org/Editors) - Official Website Resources.
 
 ## Extensions
 
-* [Extended Haskell](http://www.haskell.org/haskellwiki/Applications_and_libraries/Extended_Haskell) - Official Website Resources.
+* [Extended Haskell](https://wiki.haskell.org/Applications_and_libraries/Extended_Haskell) - Official Website Resources.
 
 ## Games
-* [Games](http://www.haskell.org/haskellwiki/Applications_and_libraries/Games) - Official Website Resources.
+* [Games](https://wiki.haskell.org/Applications_and_libraries/Games) - Official Website Resources.
 
     ---
 * [Game](http://hackage.haskell.org/packages/#cat:Game) - a curated Hackage list.
 * [Game Engine](http://hackage.haskell.org/packages/#cat:Game Engine) - a curated Hackage list.
 
 ## GUI
-* [Graphical User Interface (GUI) Libraries](http://www.haskell.org/haskellwiki/Applications_and_libraries/GUI_libraries) - Official Website Resources.
+* [Graphical User Interface (GUI) Libraries](https://wiki.haskell.org/Applications_and_libraries/GUI_libraries) - Official Website Resources.
 
     ---
 * [GUI](http://hackage.haskell.org/packages/#cat:GUI) - a curated Hackage list.
 * [User Interfaces](http://hackage.haskell.org/packages/#cat:User Interfaces) - a curated Hackage list.
 
 ## Graphics
-* [Graphics](http://www.haskell.org/haskellwiki/Applications_and_libraries/Graphics) - Official Website Resources.
+* [Graphics](https://wiki.haskell.org/Applications_and_libraries/Graphics) - Official Website Resources.
 
     ---
 * [Graphics](http://hackage.haskell.org/packages/#cat:Graphics) - a curated Hackage list.
 
 ## Network
 
-* [Network](http://www.haskell.org/haskellwiki/Applications_and_libraries/Network) - Official Website Resources
+* [Network](https://wiki.haskell.org/Applications_and_libraries/Network) - Official Website Resources
 
     ---
 * [Network](http://hackage.haskell.org/packages/#cat:Network) - a curated Hackage list.
@@ -262,15 +262,15 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 
 ## Web / Frameworks
 
-* [Web Servers](http://www.haskell.org/haskellwiki/Web/Servers) - Official Website Resources.
-* [Web Frameworks](http://www.haskell.org/haskellwiki/Web/Frameworks) - Official Website Resources.
-* [Cloud](http://www.haskell.org/haskellwiki/Web/Cloud) - Official Website Resources.
-* [Deploy](http://www.haskell.org/haskellwiki/Web/Deploy) - Official Website Resources.
-* [Libraries](http://www.haskell.org/haskellwiki/Web/Libraries) - Official Website Resources.
+* [Web Servers](https://wiki.haskell.org/Web/Servers) - Official Website Resources.
+* [Web Frameworks](https://wiki.haskell.org/Web/Frameworks) - Official Website Resources.
+* [Cloud](https://wiki.haskell.org/Web/Cloud) - Official Website Resources.
+* [Deploy](https://wiki.haskell.org/Web/Deploy) - Official Website Resources.
+* [Libraries](https://wiki.haskell.org/Web/Libraries) - Official Website Resources.
 * [Interfaces to Frameworks]() - Official Website Resources.
-* [Database adn Persistence](http://www.haskell.org/haskellwiki/Web/Databases_and_Persistence) - Official Website Resources.
-* [Testing and Verification](http://www.haskell.org/haskellwiki/Web/Testing_and_Verification) - Official Website Resources.
-* [CMS](http://www.haskell.org/haskellwiki/Web/Content_Management) - Official Website Resources for Content Management Systems (CMS).
+* [Database adn Persistence](https://wiki.haskell.org/Web/Databases_and_Persistence) - Official Website Resources.
+* [Testing and Verification](https://wiki.haskell.org/Web/Testing_and_Verification) - Official Website Resources.
+* [CMS](https://wiki.haskell.org/Web/Content_Management) - Official Website Resources for Content Management Systems (CMS).
 
     ---
 * [Web](http://hackage.haskell.org/packages/#cat:Web) - a curated Hackage list of frameworks, libraries, ...
@@ -282,7 +282,7 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 
 ## Text Processing
 
-* [Pandoc](http://johnmacfarlane.net/pandoc/) - is a library for converting from one markup format to another, and a command-line tool that uses this library.
+* [Pandoc](http://pandoc.org/) - is a library for converting from one markup format to another, and a command-line tool that uses this library.
 
 
 ## Messaging
@@ -294,7 +294,7 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 
 ## Languages
 
-* [Tools for interfacing with other languages](http://www.haskell.org/haskellwiki/Applications_and_libraries/Interfacing_other_languages) - Official Website Resources.
+* [Tools for interfacing with other languages](https://wiki.haskell.org/Applications_and_libraries/Interfacing_other_languages) - Official Website Resources.
 
     ---
 * [Code Generation](http://hackage.haskell.org/packages/#cat:Code Generation) - a curated Hackage list.
@@ -314,7 +314,7 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 
 ## Operating Systems
 
-* [Operating systems and systems programming](http://www.haskell.org/haskellwiki/Applications_and_libraries/Operating_system) - Official Website Resources.
+* [Operating systems and systems programming](https://wiki.haskell.org/Applications_and_libraries/Operating_system) - Official Website Resources.
 
     ---
 * [BSD](http://hackage.haskell.org/packages/#cat:BSD) - a curated Hackage list.
@@ -332,7 +332,7 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 
 ## Programming
 
-* [Generic Programming](http://www.haskell.org/haskellwiki/Applications_and_libraries/Generic_programming) - Official Website Resources.
+* [Generic Programming](https://wiki.haskell.org/Applications_and_libraries/Generic_programming) - Official Website Resources.
 
     ---
 * [Aspect Oriented Programming](http://hackage.haskell.org/packages/#cat:Aspect Oriented Programming) - a curated Hackage list.
@@ -343,8 +343,8 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 
 ## Science
 
-* [Bioinformatics](http://www.haskell.org/haskellwiki/Applications_and_libraries/Bioinformatics) - Official Website Resources.
-* [Mathematics & Physics](http://www.haskell.org/haskellwiki/Applications_and_libraries/Mathematics) - Official Website Resources.
+* [Bioinformatics](https://wiki.haskell.org/Applications_and_libraries/Bioinformatics) - Official Website Resources.
+* [Mathematics & Physics](https://wiki.haskell.org/Applications_and_libraries/Mathematics) - Official Website Resources.
 
     ---
 * [Chemistry](http://hackage.haskell.org/packages/#cat:Chemistry) - a curated Hackage list.
@@ -363,20 +363,20 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 # Resources
 
 ## Websites
-* [The Haskell Programming Language](http://www.haskell.org/haskellwiki/Haskell)
+* [The Haskell Programming Language](https://wiki.haskell.org/Haskell)
 * [Try Haskell](http://tryhaskell.org/) - Haskell Online.
 * [School of Haskell](https://www.fpcomplete.com/school) - Learning Haskell.
 
 ## Community
 
-* [Reddit](http://www.reddit.com/r/haskell/)
+* [Reddit](https://www.reddit.com/r/haskell/)
 * [Stackoverflow](http://stackoverflow.com/questions/tagged?tagnames=haskell)
 * [G+](https://plus.google.com/communities/104818126031270146189)
-* [Mailing lists](http://www.haskell.org/haskellwiki/Mailing_lists)
-* [IRC channels](http://www.haskell.org/haskellwiki/IRC_channel)
-* [Local user groups](http://www.haskell.org/haskellwiki/User_groups)
+* [Mailing lists](https://wiki.haskell.org/Mailing_lists)
+* [IRC channels](https://wiki.haskell.org/IRC_channel)
+* [Local user groups](https://wiki.haskell.org/User_groups)
 * [Planet Haskell](http://planet.haskell.org/)
-* [Haskell Communities and Activities Report](http://www.haskell.org/haskellwiki/Haskell_Communities_and_Activities_Report)
+* [Haskell Communities and Activities Report](https://wiki.haskell.org/Haskell_Communities_and_Activities_Report)
 
 ## Courses
 
@@ -385,18 +385,18 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 ## Packages
 
 * [Hackage](http://hackage.haskell.org/) - is the Haskell community's central package archive.
-* [Application & Libraries](http://www.haskell.org/haskellwiki/Applications_and_libraries) - Official collections and Guide.
-* [Hoogle](http://www.haskell.org/hoogle/) - is a Haskell API search engine, which allows you to search many standard Haskell libraries by either function name, or by approximate type signature.
-* [Hayoo](http://holumbus.fh-wedel.de/hayoo/hayoo.html) - will search all packages from Hackage, including all function and type definitions.
+* [Application & Libraries](https://wiki.haskell.org/Applications_and_libraries) - Official collections and Guide.
+* [Hoogle](https://www.haskell.org/hoogle/) - is a Haskell API search engine, which allows you to search many standard Haskell libraries by either function name, or by approximate type signature.
+* [Hayoo](http://hayoo.fh-wedel.de/) - will search all packages from Hackage, including all function and type definitions.
 
 ## Tutorials
 
-* [Learn Haskell](http://www.haskell.org/haskellwiki/Learning_Haskell) - Official Learning Resources.
-* [Books](http://www.haskell.org/haskellwiki/Books) & [Tutorials](http://www.haskell.org/haskellwiki/Tutorials)
+* [Learn Haskell](https://wiki.haskell.org/Learning_Haskell) - Official Learning Resources.
+* [Books](https://wiki.haskell.org/Books) & [Tutorials](https://wiki.haskell.org/Tutorials)
 * [learnhaskell](https://github.com/bitemyapp/learnhaskell) - Haskell Learning.
 * [wiwinwlh](http://dev.stephendiehl.com/hask/) - amazing guide for all kinds of things.
 * [LearnYouHaskell](http://learnyouahaskell.com/chapters) - Learn You a Haskell for Great Good!
-* [Revised report](http://www.haskell.org/onlinereport/) - Haskell 98 Language and Libraries. The Revised Report.
+* [Revised report](https://www.haskell.org/onlinereport/) - Haskell 98 Language and Libraries. The Revised Report.
 
 
 ### Video Tutorials
