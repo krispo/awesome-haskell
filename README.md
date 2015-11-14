@@ -397,6 +397,7 @@ A curated list of awesome Haskell frameworks, libraries and software. Inspired b
 * [wiwinwlh](http://dev.stephendiehl.com/hask/) - amazing guide for all kinds of things.
 * [LearnYouHaskell](http://learnyouahaskell.com/chapters) - Learn You a Haskell for Great Good!
 * [Revised report](https://www.haskell.org/onlinereport/) - Haskell 98 Language and Libraries. The Revised Report.
+* [H-99](https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems) -  Ninety-Nine Haskell Problems.
 
 
 ### Video Tutorials
