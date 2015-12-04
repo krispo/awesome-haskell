@@ -6,7 +6,7 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 - [Awesome Haskell](#awesome-haskell)
     - [_Basics_](#basics)
     - [Algorithmics](#algorithmics)
-    - [Audio, Music & Sound](#audio-music-sound)
+    - [Audio, Music & Sound](#audio-music--sound)
     - [Category Theory](#category-theory)
     - [Compilers](#compilers)
     - [Concurrency & Parallelism](#concurrency--parallelism)
