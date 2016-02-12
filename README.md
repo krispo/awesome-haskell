@@ -396,6 +396,7 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 * [learnhaskell](https://github.com/bitemyapp/learnhaskell) - Haskell Learning.
 * [wiwinwlh](http://dev.stephendiehl.com/hask/) - amazing guide for all kinds of things.
 * [LearnYouHaskell](http://learnyouahaskell.com/chapters) - Learn You a Haskell for Great Good!
+* [Happy Learn Haskell Tutorial](http://happylearnhaskelltutorial.com/) - Pain-free, Gradual Haskell Tutorial with cartoon robots!
 * [Revised report](https://www.haskell.org/onlinereport/) - Haskell 98 Language and Libraries. The Revised Report.
 * [H-99](https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems) -  Ninety-Nine Haskell Problems.
 
