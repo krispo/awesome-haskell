@@ -37,10 +37,10 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 - [Resources](#resources)
     - [Websites](#websites)
     - [Community](#community)
-    - [Courses](#courses)
-    - [Packages](#packages)
     - [Tutorials](#tutorials)
+    - [Courses](#courses)
     - [Conferences](#conferences)
+    - [Packages](#packages)
 - [License](#license)
 
 
@@ -50,7 +50,6 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 * [Cabal](https://www.haskell.org/cabal/) - a system for building and packaging Haskell libraries and programs.
 * [GHC](https://www.haskell.org/ghc/) - the state-of-the-art optimizing native code compiler for Haskell.
 * [GHCi](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/ghci.html) - a bytecode interpreter and interactive REPL environment for Haskell.
-* [Stackage](https://github.com/fpco/stackage) - "Stable Hackage," tools for creating a vetted set of packages from Hackage.
 * [Hackage](http://hackage.haskell.org/) - the Haskell community's central package archive.
 * [Haddock](https://www.haskell.org/haddock/) - a tool for automatically generating documentation from annotated Haskell source code.
 * [Happy](https://www.haskell.org/happy/) - The Parser Generator for Haskell.
@@ -58,6 +57,7 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 * [Hoogle](https://www.haskell.org/hoogle/) - a Haskell API search engine, which allows you to search many standard Haskell libraries by either function name, or by approximate type signature.
 * [hsenv](https://github.com/Paczesiowa/hsenv/) - a tool to create isolated Haskell environments. This allows a project to use a GHC version different of the currently installed.
 * [Stack](https://github.com/commercialhaskell/stack) - a cross-platform tool to help on building Haskell projects. It includes support to create isolated Haskell environments and to automatically manage the dependencies of a project.
+* [Stackage](https://github.com/fpco/stackage) - "Stable Hackage," tools for creating a vetted set of packages from Hackage.
 * [The Haskell Platform](https://www.haskell.org/platform/contents.html) - a comprehensive, robust development environment for programming in Haskell.
 
 ## Algorithmics
@@ -365,12 +365,15 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 # Resources
 
 ## Websites
-* [The Haskell Programming Language](https://wiki.haskell.org/Haskell)
+
+* [Haskell](https://www.haskell.org/) - Official Website.
+* [The Haskell Programming Language](https://wiki.haskell.org/Haskell) - Haskell wiki.
 * [Try Haskell](http://tryhaskell.org/) - Haskell Online.
 * [School of Haskell](https://www.fpcomplete.com/school) - Learning Haskell.
 
 ## Community
 
+* [Community](https://www.haskell.org/community) - Official community resources.
 * [Reddit](https://www.reddit.com/r/haskell/)
 * [Stackoverflow](http://stackoverflow.com/questions/tagged?tagnames=haskell)
 * [G+](https://plus.google.com/communities/104818126031270146189)
@@ -380,24 +383,13 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 * [Planet Haskell](http://planet.haskell.org/)
 * [Haskell Communities and Activities Report](https://wiki.haskell.org/Haskell_Communities_and_Activities_Report)
 
-## Courses
-
-* [Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0) - Fall 2014 MOOC on edX by DelftX featuring Haskell as the primary language of focus.
-
-## Packages
-
-* [Stackage](https://www.stackage.org/) - is a stable source of Haskell packages, "Stable Hackage".
-* [Hackage](http://hackage.haskell.org/) - is the Haskell community's central package archive.
-* [Application & Libraries](https://wiki.haskell.org/Applications_and_libraries) - Official collections and Guide.
-* [Hoogle](https://www.haskell.org/hoogle/) - is a Haskell API search engine, which allows you to search many standard Haskell libraries by either function name, or by approximate type signature.
-* [Hayoo](http://hayoo.fh-wedel.de/) - will search all packages from Hackage, including all function and type definitions.
-
 ## Tutorials
 
-* [Learn Haskell](https://wiki.haskell.org/Learning_Haskell) - Official Learning Resources.
+* [Documentation](https://www.haskell.org/documentation) - Official documentation resources.
+* [Learn Haskell](https://wiki.haskell.org/Learning_Haskell) - Wiki Learning Resources.
 * [Books](https://wiki.haskell.org/Books) & [Tutorials](https://wiki.haskell.org/Tutorials)
-* [learnhaskell](https://github.com/bitemyapp/learnhaskell) - Haskell Learning.
-* [wiwinwlh](http://dev.stephendiehl.com/hask/) - amazing guide for all kinds of things.
+* [learnhaskell](https://github.com/bitemyapp/learnhaskell) - Haskell Learning (also for non-English speakers).
+* [What I Wish I Knew When Learning Haskell](http://dev.stephendiehl.com/hask/) - amazing guide for all kinds of things.
 * [LearnYouHaskell](http://learnyouahaskell.com/chapters) - Learn You a Haskell for Great Good!
 * [Happy Learn Haskell Tutorial](http://happylearnhaskelltutorial.com/) - Pain-free, Gradual Haskell Tutorial with cartoon robots!
 * [Revised report](https://www.haskell.org/onlinereport/) - Haskell 98 Language and Libraries. The Revised Report.
@@ -414,12 +406,24 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 * [Haskell Development Workflow Demo](http://www.youtube.com/watch?v=Li6oaO8x2VY)
 * [Learn You a Haskell](https://www.youtube.com/watch?v=NBKnY7Z_w3I&list=PLPqPwGvHPSZB-urE6QFjKYt6AGXcZqJUh) - Video lectures to accompany the book "Learn You a Haskell for Great Good!"
 
-### Conferences
+## Courses
+
+* [Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0) - Fall 2014 MOOC on edX by DelftX featuring Haskell as the primary language of focus.
+
+## Conferences
 
 * [ICFP](http://www.icfpconference.org/) - International Conference on Functional Programming. [Youtube channel](https://www.youtube.com/channel/UCwRL68qZFfub1Ep1EScfmBw). 
-* [Conferences](https://wiki.haskell.org/Conferences) - Oficial list of conferences
+* [Conferences](https://wiki.haskell.org/Conferences) - Official list of conferences
 * [Haskell Symposium 2015](https://www.youtube.com/playlist?list=PLnqUlCo055hV5dPC-4VWeXzhI8ooeTsVy) 
 * [Haskell Implementors' Workshop 2015](https://www.youtube.com/playlist?list=PLnqUlCo055hVfNkQHP7z43r10yNo-mc7B)
+
+## Packages
+
+* [Stackage](https://www.stackage.org/) - is a stable source of Haskell packages, "Stable Hackage".
+* [Hackage](http://hackage.haskell.org/) - is the Haskell community's central package archive.
+* [Application & Libraries](https://wiki.haskell.org/Applications_and_libraries) - Official collections and Guide.
+* [Hoogle](https://www.haskell.org/hoogle/) - is a Haskell API search engine, which allows you to search many standard Haskell libraries by either function name, or by approximate type signature.
+* [Hayoo](http://hayoo.fh-wedel.de/) - will search all packages from Hackage, including all function and type definitions.
 
 # License
 
