@@ -101,7 +101,7 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 * [Categories](http://hackage.haskell.org/packages/#cat:Categories) - a collaborative Hackage list.
 * [Combinators](http://hackage.haskell.org/packages/#cat:Combinators) - a collaborative Hackage list.
 * [Comonads](http://hackage.haskell.org/packages/#cat:Comonads) - a collaborative Hackage list.
-* [Compisition](http://hackage.haskell.org/packages/#cat:Composition) - a collaborative Hackage list.
+* [Composition](http://hackage.haskell.org/packages/#cat:Composition) - a collaborative Hackage list.
 * [Computer Algebra](http://hackage.haskell.org/packages/#cat:Computer Algebra) - a collaborative Hackage list.
 * [Constraints](http://hackage.haskell.org/packages/#cat:Constraints) - a collaborative Hackage list.
 * [Functors](http://hackage.haskell.org/packages/#cat:Functors) - a collaborative Hackage list.
@@ -412,9 +412,9 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 
 ## Conferences
 
-* [ICFP](http://www.icfpconference.org/) - International Conference on Functional Programming. [Youtube channel](https://www.youtube.com/channel/UCwRL68qZFfub1Ep1EScfmBw). 
+* [ICFP](http://www.icfpconference.org/) - International Conference on Functional Programming. [Youtube channel](https://www.youtube.com/channel/UCwRL68qZFfub1Ep1EScfmBw).
 * [Conferences](https://wiki.haskell.org/Conferences) - Official list of conferences
-* [Haskell Symposium 2015](https://www.youtube.com/playlist?list=PLnqUlCo055hV5dPC-4VWeXzhI8ooeTsVy) 
+* [Haskell Symposium 2015](https://www.youtube.com/playlist?list=PLnqUlCo055hV5dPC-4VWeXzhI8ooeTsVy)
 * [Haskell Implementors' Workshop 2015](https://www.youtube.com/playlist?list=PLnqUlCo055hVfNkQHP7z43r10yNo-mc7B)
 
 ## Packages
