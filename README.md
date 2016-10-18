@@ -5,6 +5,7 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 
 - [Awesome Haskell](#awesome-haskell)
     - [Build Tools, Code Generation](#build-tools)
+    - [Project Templates](#project-templates)
     - [Algorithmics](#algorithmics)
     - [Audio, Music & Sound](#audio-music--sound)
     - [Category Theory](#category-theory)
@@ -56,6 +57,11 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 * [Happy](https://www.haskell.org/happy/) - The Parser Generator for Haskell.
 * [Hayoo](http://hayoo.fh-wedel.de/) - will search all packages from Hackage, including all function and type definitions.
 * [Hoogle](https://www.haskell.org/hoogle/) - a Haskell API search engine, which allows you to search many standard Haskell libraries by either function name, or by approximate type signature.
+
+## Project Templates
+
+* [hi](https://github.com/fujimura/hi) - Generate scaffold for a Haskell project
+* [stack-templates](https://github.com/commercialhaskell/stack-templates) - official templates for `stack new`
 
 ## Algorithmics
 
