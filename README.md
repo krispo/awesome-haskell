@@ -4,7 +4,7 @@ Awesome Haskell [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38
 An auxiliary list of awesome Haskell links, frameworks, libraries and software. The part of the [awesome](https://github.com/sindresorhus/awesome) projects line.
 
 - [Awesome Haskell](#awesome-haskell)
-    - [Build Tools, Code Generation](#build-tools)
+    - [Build Tools, Code Generation](#build-tools-code-generation)
     - [Project Templates](#project-templates)
     - [Algorithmics](#algorithmics)
     - [Audio, Music & Sound](#audio-music--sound)
