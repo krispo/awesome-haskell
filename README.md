@@ -270,7 +270,7 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 * [Deploy](https://wiki.haskell.org/Web/Deploy) - Official Website Resources.
 * [Libraries](https://wiki.haskell.org/Web/Libraries) - Official Website Resources.
 * [Interfaces to Frameworks]() - Official Website Resources.
-* [Database adn Persistence](https://wiki.haskell.org/Web/Databases_and_Persistence) - Official Website Resources.
+* [Database and Persistence](https://wiki.haskell.org/Web/Databases_and_Persistence) - Official Website Resources.
 * [Testing and Verification](https://wiki.haskell.org/Web/Testing_and_Verification) - Official Website Resources.
 * [CMS](https://wiki.haskell.org/Web/Content_Management) - Official Website Resources for Content Management Systems (CMS).
 
