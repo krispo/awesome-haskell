@@ -66,20 +66,20 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 
     ---
 * [Algorithm](http://hackage.haskell.org/packages/#cat:Algorithm) - a collaborative Hackage list.
-* [Algorithm Visualization](http://hackage.haskell.org/packages/#cat:Algorithm Visualization) - a collaborative Hackage list.
+* [Algorithm Visualization](http://hackage.haskell.org/packages/#cat:Algorithm%20Visualization) - a collaborative Hackage list.
 * [Algorithms](http://hackage.haskell.org/packages/#cat:Algorithms) - a collaborative Hackage list.
 * [Compression](http://hackage.haskell.org/packages/#cat:Compression) - a collaborative Hackage list.
-* [Formal Languages](http://hackage.haskell.org/packages/#cat:Formal Languages) - a collaborative Hackage list.
-* [Formal Methods](http://hackage.haskell.org/packages/#cat:Formal Methods) - a collaborative Hackage list.
+* [Formal Languages](http://hackage.haskell.org/packages/#cat:Formal%20Languages) - a collaborative Hackage list.
+* [Formal Methods](http://hackage.haskell.org/packages/#cat:Formal%20Methods) - a collaborative Hackage list.
 * [Logic](http://hackage.haskell.org/packages/#cat:Logic) - a collaborative Hackage list.
-* [Logic Programming](http://hackage.haskell.org/packages/#cat:Logic Programming) - a collaborative Hackage list.
+* [Logic Programming](http://hackage.haskell.org/packages/#cat:Logic%20Programming) - a collaborative Hackage list.
 * [Map Reduce](http://hackage.haskell.org/packages/#cat:MapReduce) - a collaborative Hackage list.
 * [Graphs](http://hackage.haskell.org/packages/#cat:Graphs) - a collaborative Hackage list.
 * [Optimization](http://hackage.haskell.org/packages/#cat:Optimization) - a collaborative Hackage list.
 * [Simulation](http://hackage.haskell.org/packages/#cat:Simulation) - a collaborative Hackage list.
 * [SMT](http://hackage.haskell.org/packages/#cat:SMT) - a collaborative Hackage list for Satisfiability Modulo Theories (SMT).
-* [Symbolic Computation](http://hackage.haskell.org/packages/#cat:Symbolic Computation) - a collaborative Hackage list.
-* [Theorem Provers](http://hackage.haskell.org/packages/#cat:Theorem Provers) - a collaborative Hackage list.
+* [Symbolic Computation](http://hackage.haskell.org/packages/#cat:Symbolic%20Computation) - a collaborative Hackage list.
+* [Theorem Provers](http://hackage.haskell.org/packages/#cat:Theorem%20Provers) - a collaborative Hackage list.
 
 ## Audio, Music & Sound
 
@@ -102,7 +102,7 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 * [Combinators](http://hackage.haskell.org/packages/#cat:Combinators) - a collaborative Hackage list.
 * [Comonads](http://hackage.haskell.org/packages/#cat:Comonads) - a collaborative Hackage list.
 * [Composition](http://hackage.haskell.org/packages/#cat:Composition) - a collaborative Hackage list.
-* [Computer Algebra](http://hackage.haskell.org/packages/#cat:Computer Algebra) - a collaborative Hackage list.
+* [Computer Algebra](http://hackage.haskell.org/packages/#cat:Computer%20Algebra) - a collaborative Hackage list.
 * [Constraints](http://hackage.haskell.org/packages/#cat:Constraints) - a collaborative Hackage list.
 * [Functors](http://hackage.haskell.org/packages/#cat:Functors) - a collaborative Hackage list.
 * [Monad](http://hackage.haskell.org/packages/#cat:Monad) - a collaborative Hackage list.
@@ -116,7 +116,7 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 
     ---
 * [Compiler](http://hackage.haskell.org/packages/#cat:Compiler) - a collaborative Hackage list.
-* [Compiler Plugin](http://hackage.haskell.org/packages/#cat:Compiler Plugin) - a collaborative Hackage list.
+* [Compiler Plugin](http://hackage.haskell.org/packages/#cat:Compiler%20Plugin) - a collaborative Hackage list.
 * [Compilers/Interpreters](http://hackage.haskell.org/packages/#cat:Compilers/Interpreters) - a collaborative Hackage list.
 
 ## Concurrency & Parallelism
@@ -161,17 +161,17 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 * [Argumentations](http://hackage.haskell.org/packages/#cat:Argumentation) - a collaborative Hackage list.
 * [Classification](http://hackage.haskell.org/packages/#cat:Classification) - a collaborative Hackage list.
 * [Clustering](http://hackage.haskell.org/packages/#cat:Clustering) - a collaborative Hackage list.
-* [Data Mining](http://hackage.haskell.org/packages/#cat:Data Mining) - a collaborative Hackage list.
+* [Data Mining](http://hackage.haskell.org/packages/#cat:Data%20Mining) - a collaborative Hackage list.
 * [Datamining](http://hackage.haskell.org/packages/#cat:Datamining) - a collaborative Hackage list.
-* [Image Processing](http://hackage.haskell.org/packages/#cat:Image Processing) - a collaborative Hackage list.
-* [Machine Learning](http://hackage.haskell.org/packages/#cat:Machine Learning) - a collaborative Hackage list.
-* [Machine Vision](http://hackage.haskell.org/packages/#cat:Machine Vision) - a collaborative Hackage list.
-* [Natural Language Processing](http://hackage.haskell.org/packages/#cat:Natural Language Processing) - a collaborative Hackage list.
-* [Pattern Classification](http://hackage.haskell.org/packages/#cat:Pattern Classification) - a collaborative Hackage list.
-* [Pattern Recognition](http://hackage.haskell.org/packages/#cat:Pattern Recognition) - a collaborative Hackage list.
+* [Image Processing](http://hackage.haskell.org/packages/#cat:Image%20Processing) - a collaborative Hackage list.
+* [Machine Learning](http://hackage.haskell.org/packages/#cat:Machine%20Learning) - a collaborative Hackage list.
+* [Machine Vision](http://hackage.haskell.org/packages/#cat:Machine%20Vision) - a collaborative Hackage list.
+* [Natural Language Processing](http://hackage.haskell.org/packages/#cat:Natural%20Language%20Processing) - a collaborative Hackage list.
+* [Pattern Classification](http://hackage.haskell.org/packages/#cat:Pattern%20Classification) - a collaborative Hackage list.
+* [Pattern Recognition](http://hackage.haskell.org/packages/#cat:Pattern%20Recognition) - a collaborative Hackage list.
 * [Search](http://hackage.haskell.org/packages/#cat:Search) - a collaborative Hackage list.
 * [Statistics](http://hackage.haskell.org/packages/#cat:Statistics) - a collaborative Hackage list.
-* [Text Recognition](http://hackage.haskell.org/packages/#cat:Text Recognition) - a collaborative Hackage list.
+* [Text Recognition](http://hackage.haskell.org/packages/#cat:Text%20Recognition) - a collaborative Hackage list.
 * [Robotics](http://hackage.haskell.org/packages/#cat:Robotics) - a collaborative Hackage list.
 
 ## Data Structures
@@ -179,9 +179,9 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 
     ---
 * [Advanced Structures](http://hackage.haskell.org/packages/#cat:Structures) - a collaborative Hackage list.
-* [Bit Vectors](http://hackage.haskell.org/packages/#cat:Bit Vectors) - a collaborative Hackage list.
+* [Bit Vectors](http://hackage.haskell.org/packages/#cat:Bit%20Vectors) - a collaborative Hackage list.
 * [Containers](http://hackage.haskell.org/packages/#cat:Containers) - a collaborative Hackage list.
-* [Data Structures](http://hackage.haskell.org/packages/#cat:Data Structures) - a collaborative Hackage list.
+* [Data Structures](http://hackage.haskell.org/packages/#cat:Data%20Structures) - a collaborative Hackage list.
 * [Enumerator](http://hackage.haskell.org/packages/#cat:Enumerator) - a collaborative Hackage list.
 * [Generics](http://hackage.haskell.org/packages/#cat:Generics) - a collaborative Hackage list.
 * [List](http://hackage.haskell.org/packages/#cat:List) - a collaborative Hackage list.
@@ -203,12 +203,12 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 * [Test](http://hackage.haskell.org/packages/#cat:Test) - a collaborative Hackage list.
 * [Testing](http://hackage.haskell.org/packages/#cat:Testing) - a collaborative Hackage list.
 * [Logging](http://hackage.haskell.org/packages/#cat:Logging) - a collaborative Hackage list.
-* [CLI Tool](http://hackage.haskell.org/packages/#cat:CLI Tool) - a collaborative Hackage list.
+* [CLI Tool](http://hackage.haskell.org/packages/#cat:CLI%20Tool) - a collaborative Hackage list.
 * [Monitoring](http://hackage.haskell.org/packages/#cat:Monitoring) - a collaborative Hackage list.
 
 ## Distributed Computing
 
-* [Distributed Computing](http://hackage.haskell.org/packages/#cat:Distributed Computing) - a collaborative Hackage list.
+* [Distributed Computing](http://hackage.haskell.org/packages/#cat:Distributed%20Computing) - a collaborative Hackage list.
 
     ---
 * [Cloud Haskell](http://haskell-distributed.github.io/) - concurrent and distributed programming in Haskell.
@@ -232,14 +232,14 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 
     ---
 * [Game](http://hackage.haskell.org/packages/#cat:Game) - a collaborative Hackage list.
-* [Game Engine](http://hackage.haskell.org/packages/#cat:Game Engine) - a collaborative Hackage list.
+* [Game Engine](http://hackage.haskell.org/packages/#cat:Game%20Engine) - a collaborative Hackage list.
 
 ## GUI
 * [Graphical User Interface (GUI) Libraries](https://wiki.haskell.org/Applications_and_libraries/GUI_libraries) - Official Website Resources.
 
     ---
 * [GUI](http://hackage.haskell.org/packages/#cat:GUI) - a collaborative Hackage list.
-* [User Interfaces](http://hackage.haskell.org/packages/#cat:User Interfaces) - a collaborative Hackage list.
+* [User Interfaces](http://hackage.haskell.org/packages/#cat:User%20Interfaces) - a collaborative Hackage list.
 
 ## Graphics
 * [Graphics](https://wiki.haskell.org/Applications_and_libraries/Graphics) - Official Website Resources.
@@ -256,7 +256,7 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 
 ## Number Theory
 
-* [Number Theory](http://hackage.haskell.org/packages/#cat:Number Theory) - a collaborative Hackage list.
+* [Number Theory](http://hackage.haskell.org/packages/#cat:Number%20Theory) - a collaborative Hackage list.
 * [Numeric](http://hackage.haskell.org/packages/#cat:Numeric) - a collaborative Hackage list.
 * [Numerical](http://hackage.haskell.org/packages/#cat:Numerical) - a collaborative Hackage list.
 * [Math](http://hackage.haskell.org/packages/#cat:Math) - a collaborative Hackage list.
@@ -299,9 +299,9 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 * [Tools for interfacing with other languages](https://wiki.haskell.org/Applications_and_libraries/Interfacing_other_languages) - Official Website Resources.
 
     ---
-* [Code Generation](http://hackage.haskell.org/packages/#cat:Code Generation) - a collaborative Hackage list.
+* [Code Generation](http://hackage.haskell.org/packages/#cat:Code%20Generation) - a collaborative Hackage list.
 * [FFI](http://hackage.haskell.org/packages/#cat:FFI) - a collaborative Hackage list.
-* [FFI Tools](http://hackage.haskell.org/packages/#cat:FFI Tools) - a collaborative Hackage list.
+* [FFI Tools](http://hackage.haskell.org/packages/#cat:FFI%20Tools) - a collaborative Hackage list.
 * [HTML](http://hackage.haskell.org/packages/#cat:HTML) - a collaborative Hackage list.
 * [Java](http://hackage.haskell.org/packages/#cat:Java) - a collaborative Hackage list.
 * [Javascript](http://hackage.haskell.org/packages/#cat:Javascript) - a collaborative Hackage list.
@@ -337,11 +337,11 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 * [Generic Programming](https://wiki.haskell.org/Applications_and_libraries/Generic_programming) - Official Website Resources.
 
     ---
-* [Aspect Oriented Programming](http://hackage.haskell.org/packages/#cat:Aspect Oriented Programming) - a collaborative Hackage list.
+* [Aspect Oriented Programming](http://hackage.haskell.org/packages/#cat:Aspect%20Oriented%20Programming) - a collaborative Hackage list.
 * [Generic Programming](http://hackage.haskell.org/packages/#cat:Generics) - a collaborative Hackage list.
 * [Logic Programming](http://hackage.haskell.org/packages/#cat:Logic) - a collaborative Hackage list.
 * [Reactive Programming](http://hackage.haskell.org/packages/#cat:Reactivity) - a collaborative Hackage list.
-* [Visual Programming](http://hackage.haskell.org/packages/#cat:Visual Programming) - a collaborative Hackage list.
+* [Visual Programming](http://hackage.haskell.org/packages/#cat:Visual%20Programming) - a collaborative Hackage list.
 
 ## Science
 
@@ -354,7 +354,7 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 * [Finance](http://hackage.haskell.org/packages/#cat:Finance) - a collaborative Hackage list.
 * [Physics](http://hackage.haskell.org/packages/#cat:Physics) - a collaborative Hackage list.
 * [Science](http://hackage.haskell.org/packages/#cat:Science) - a collaborative Hackage list.
-* [Scientific Simulation](http://hackage.haskell.org/packages/#cat:Scientific Simulation) - a collaborative Hackage list.
+* [Scientific Simulation](http://hackage.haskell.org/packages/#cat:Scientific%20Simulation) - a collaborative Hackage list.
 
 ## Streaming Processing
 
