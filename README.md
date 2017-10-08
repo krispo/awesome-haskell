@@ -394,6 +394,7 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 * [Happy Learn Haskell Tutorial](http://happylearnhaskelltutorial.com/) - Pain-free, Gradual Haskell Tutorial with cartoon robots!
 * [Revised report](https://www.haskell.org/onlinereport/) - Haskell 98 Language and Libraries. The Revised Report.
 * [H-99](https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems) -  Ninety-Nine Haskell Problems.
+* [Get Programming with Haskell](https://www.manning.com/books/get-programming-with-haskell) - Get Programming with Haskell introduces you to the Haskell language without drowning you in academic jargon and heavy functional programming theory.
 
 
 ### Video Tutorials
