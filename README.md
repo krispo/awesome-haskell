@@ -36,6 +36,7 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
     - [Streaming Processing](#streaming-processing)
 - [Resources](#resources)
     - [Websites](#websites)
+    - [Bloggers](#bloggers)    
     - [Community](#community)
     - [Tutorials](#tutorials)
     - [Courses](#courses)
@@ -370,6 +371,11 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 * [The Haskell Programming Language](https://wiki.haskell.org/Haskell) - Haskell wiki.
 * [Try Haskell](http://tryhaskell.org/) - Haskell Online.
 * [School of Haskell](https://www.fpcomplete.com/school) - Learning Haskell.
+
+## Bloggers
+
+* [NEIL MITCHELL](https://neilmitchell.blogspot.com/) - Neil Mitchell's Haskell Blog.
+
 
 ## Community
 
