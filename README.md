@@ -374,7 +374,7 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 
 ## Bloggers
 
-* [NEIL MITCHELL](https://neilmitchell.blogspot.com/) - Neil Mitchell's Haskell Blog.
+* [Neil Mitchell](https://neilmitchell.blogspot.com/) - Neil Mitchell's Haskell Blog.
 
 
 ## Community
