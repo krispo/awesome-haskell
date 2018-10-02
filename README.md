@@ -395,6 +395,12 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 * [Revised report](https://www.haskell.org/onlinereport/) - Haskell 98 Language and Libraries. The Revised Report.
 * [H-99](https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems) -  Ninety-Nine Haskell Problems.
 
+    ### Web Tutorials 
+    * [Introduction to Haskell - Web Programming](http://www.shakthimaan.com/posts/2016/01/27/haskell-web-programming/news.html)
+    * [Your First Web Application with Spock](https://haskell-at-work.com/episodes/2018-04-09-your-first-web-application-with-spock.html)
+    * [Scotty-Tutorials-&-Examples](https://github.com/scotty-web/scotty/wiki/Scotty-Tutorials-&-Examples)
+    * [Getting Started](https://www.spock.li/tutorials/getting-started)
+    * [Developing Web Applications with Yesod and Haskell](https://www.yesodweb.com/book-1.6)
 
 ### Video Tutorials
 
