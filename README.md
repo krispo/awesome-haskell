@@ -10,6 +10,7 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
     - [Category Theory](#category-theory)
     - [Compilers](#compilers)
     - [Concurrency & Parallelism](#concurrency--parallelism)
+    - [Configuration](#configuration)
     - [Cryptography & Hashing](#cryptography--hashing)
     - [Data Access](#data-access)
     - [Data Formats](#data-formats)
@@ -131,6 +132,12 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 
     ---
 * [Concurrency & Parallelism](http://chimera.labs.oreilly.com/books/1230000000929/index.html) - (Book) Parallel and Concurrent Programming in Haskell
+
+## Configuration
+
+* [Deiko-config](http://hackage.haskell.org/package/deiko-config) - small typesafe library that uses [HOCON](https://github.com/lightbend/config#features-of-hocon) config format
+* [Dhal](https://github.com/dhall-lang/dhall-haskell) - A configuration language guaranteed to terminate 
+* [Configurator](http://hackage.haskell.org/package/configurator) - A configuration management library which supports automatic, dynamic reloading in response to modifications to configuration files.
 
 ## Cryptography & Hashing
 
