@@ -377,6 +377,7 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 * [Haskell](https://www.haskell.org/) - Official Website.
 * [The Haskell Programming Language](https://wiki.haskell.org/Haskell) - Haskell wiki.
 * [Try Haskell](http://tryhaskell.org/) - Haskell Online.
+* [School of Haskell](https://www.schoolofhaskell.com/) - Learning Haskell.
 
 ## Bloggers
 
