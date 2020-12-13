@@ -424,6 +424,7 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 * [LazyCasts](http://www.youtube.com/user/LazyCasts)
 * [Haskell Development Workflow Demo](http://www.youtube.com/watch?v=Li6oaO8x2VY)
 * [Learn You a Haskell](https://www.youtube.com/watch?v=NBKnY7Z_w3I&list=PLPqPwGvHPSZB-urE6QFjKYt6AGXcZqJUh) - Video lectures to accompany the book "Learn You a Haskell for Great Good!"
+* [Awesome Haskell Videos](https://github.com/andys8/awesome-haskell-videos) - Curated list of Haskell talks and tutorials
 
 ## Courses
 
