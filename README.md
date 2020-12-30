@@ -281,7 +281,7 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 * [Database and Persistence](https://wiki.haskell.org/Web/Databases_and_Persistence) - Official Website Resources.
 * [Testing and Verification](https://wiki.haskell.org/Web/Testing_and_Verification) - Official Website Resources.
 * [CMS](https://wiki.haskell.org/Web/Content_Management) - Official Website Resources for Content Management Systems (CMS).
-
+* [IHP: Integrated Haskell Platform](https://ihp.digitallyinduced.com/) - The best way to get started with haskell web dev.
     ---
 * [Web](http://hackage.haskell.org/packages/#cat:Web) - a collaborative Hackage list of frameworks, libraries, ...
 
@@ -425,6 +425,7 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 * [Haskell Development Workflow Demo](http://www.youtube.com/watch?v=Li6oaO8x2VY)
 * [Learn You a Haskell](https://www.youtube.com/watch?v=NBKnY7Z_w3I&list=PLPqPwGvHPSZB-urE6QFjKYt6AGXcZqJUh) - Video lectures to accompany the book "Learn You a Haskell for Great Good!"
 * [Awesome Haskell Videos](https://github.com/andys8/awesome-haskell-videos) - Curated list of Haskell talks and tutorials
+* [IHP Casts](https://ihpcasts.com/ShowEpisode?episodeId=ab384647-3665-4a36-b5e5-e05fea6c2288) Learn to build type-safe web apps with Haskell and IHP
 
 ## Courses
 
