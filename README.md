@@ -369,6 +369,7 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 * [Conduit](https://github.com/snoyberg/conduit) - a streaming data library. [Resources](http://hackage.haskell.org/packages/#cat:Conduit).
 * [IO-Streams](http://hackage.haskell.org/packages/#cat:IO-Streams) - a collaborative Hackage list.
 * [Pipes](https://github.com/Gabriel439/Haskell-Pipes-Library) - is a clean and powerful stream processing library that lets you build and connect reusable streaming components. [Resources](http://hackage.haskell.org/packages/#cat:Pipes).
+* [HStreamDB](https://github.com/hstreamdb/hstream) - The streaming database built for IoT data storage and real-time processing.
 
 # Resources
 
