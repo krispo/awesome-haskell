@@ -183,6 +183,10 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 * [Text Recognition](http://hackage.haskell.org/packages/#cat:Text%20Recognition) - a collaborative Hackage list.
 * [Robotics](http://hackage.haskell.org/packages/#cat:Robotics) - a collaborative Hackage list.
 
+    ---
+*Additional libraries*
+* [m2cgen](https://github.com/BayesWitnesses/m2cgen) - A CLI tool to transpile trained classic ML models into a native Haskell code with zero dependencies.
+
 ## Data Structures
 * [Data Structures & IO Libraries](https://wiki.haskell.org/Applications_and_libraries/Data_structures) - Official Website Resources.
 
