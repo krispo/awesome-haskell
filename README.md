@@ -15,6 +15,7 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
     - [Data Access](#data-access)
     - [Data Formats](#data-formats)
     - [Data Science](#data-science)
+    - [Data Structures](#data-structures)
     - [Database](#database)
     - [Development Tools](#development-tools)
     - [Documentation](#documentation)
