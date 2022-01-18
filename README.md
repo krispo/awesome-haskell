@@ -302,6 +302,7 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 
 ## Messaging
 
+* [SimpleX Chat](https://github.com/simplex-chat/simplex-chat) - the most private and secure open-source chat and applications platform - now with double-ratchet E2E encryption.
 * [Stomp](http://stomp.github.io/) - is the Simple (or Streaming) Text Orientated Messaging Protocol. [Resources](http://hackage.haskell.org/packages/#cat:Stomp).
 * [amqp](https://github.com/hreinhardt/amqp) - client library for AMQP servers (currently only RabbitMQ).
 * [IRC](http://hackage.haskell.org/packages/#cat:IRC) - a collaborative Hackage list for Internet Relay Chat (IRC).
