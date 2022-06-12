@@ -438,6 +438,7 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 
 * [Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0) - Fall 2014 MOOC on edX by DelftX featuring Haskell as the primary language of focus.
 * [Functional Programming in Haskell](https://www.futurelearn.com/courses/functional-programming-haskell/) - Introductory MOOC to functional programming in Haskell by the University of Glasgow. 
+* [Haskell MOOC](https://haskell.mooc.fi/) - MOOC on functional programming that uses Haskell by University of Helsinki.
 
 ## Conferences
 
