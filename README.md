@@ -327,6 +327,7 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 * [Fay](http://fay-lang.org/) - a proper subset of Haskell that compiles to JavaScript.
 * [Idris](https://github.com/idris-lang/Idris-dev) - A Dependently Typed Functional Programming Language
 * [Copilot](http://leepike.github.io/Copilot/) - a (Haskell DSL) stream language for generating hard real-time C code.
+* [Wasp](https://wasp-lang.dev/) - a simple language for developing full-stack Javascript web apps with less code (built with Haskell)
 
 ## Operating Systems
 
