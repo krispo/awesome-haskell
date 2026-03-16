@@ -156,7 +156,9 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 
 ## Data Formats
 
+* [a2ml-haskell](https://github.com/hyperpolymath/a2ml-haskell) - Parser and renderer for A2ML (Attested Markup Language) - AI agent identity and attestation format.
 * [JSON](http://hackage.haskell.org/packages/#cat:JSON) - a collaborative Hackage list.
+* [k9-haskell](https://github.com/hyperpolymath/k9-haskell) - Parser and renderer for K9 (Self-Validating Components) - configuration with Nickel contracts and trust levels.
 * [PDF](http://hackage.haskell.org/packages/#cat:PDF) - a collaborative Hackage list.
 * [XML](http://hackage.haskell.org/packages/#cat:XML) - a collaborative Hackage list.
 * [RSS](http://hackage.haskell.org/packages/#cat:RSS) - a collaborative Hackage list.
