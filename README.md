@@ -218,6 +218,7 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 * [Logging](http://hackage.haskell.org/packages/#cat:Logging) - a collaborative Hackage list.
 * [CLI Tool](http://hackage.haskell.org/packages/#cat:CLI%20Tool) - a collaborative Hackage list.
 * [Monitoring](http://hackage.haskell.org/packages/#cat:Monitoring) - a collaborative Hackage list.
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for Haskell development workflow orchestration, automated code review, and multi-agent coordination. MIT licensed.
 
 ## Distributed Computing
 
