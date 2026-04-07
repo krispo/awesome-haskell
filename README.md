@@ -186,7 +186,7 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
     ---
 *Additional libraries*
 * [m2cgen](https://github.com/BayesWitnesses/m2cgen) - A CLI tool to transpile trained classic ML models into a native Haskell code with zero dependencies.
-
+* [RemoteOpenClaw](https://remoteopenclaw.com) - Open marketplace for AI skills and personas built on OpenClaw.
 ## Data Structures
 * [Data Structures & IO Libraries](https://wiki.haskell.org/Applications_and_libraries/Data_structures) - Official Website Resources.
 
