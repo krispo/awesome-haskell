@@ -1,0 +1,44 @@
+cabal-version:      3.0
+name:               awesome-haskell-beginner-cli
+version:            0.1.0.0
+synopsis:           A minimal, tested command-line example for Haskell newcomers
+description:
+  A deliberately small example used by Awesome Haskell to demonstrate a
+  conventional Cabal project with a library, executable, and test suite.
+license:             CC0-1.0
+build-type:          Simple
+extra-source-files:  README.md
+
+common warnings
+  ghc-options:
+    -Wall
+    -Wcompat
+    -Widentities
+    -Wincomplete-record-updates
+    -Wincomplete-uni-patterns
+
+library
+  import:             warnings
+  exposed-modules:    AwesomeHaskell.Greeting
+  hs-source-dirs:     src
+  build-depends:      base >=4.17 && <5
+  default-language:   GHC2021
+
+executable hello-haskell
+  import:             warnings
+  main-is:            Main.hs
+  hs-source-dirs:     app
+  build-depends:
+    base >=4.17 && <5,
+    awesome-haskell-beginner-cli
+  default-language:   GHC2021
+
+test-suite beginner-cli-test
+  import:             warnings
+  type:               exitcode-stdio-1.0
+  main-is:            Spec.hs
+  hs-source-dirs:     test
+  build-depends:
+    base >=4.17 && <5,
+    awesome-haskell-beginner-cli
+  default-language:   GHC2021
