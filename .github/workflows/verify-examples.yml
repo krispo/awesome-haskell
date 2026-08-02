@@ -58,16 +58,9 @@ jobs:
         run: cabal run hello-haskell -- Ada Lovelace
 
   web-api-scotty:
-    name: Scotty web API (GHC ${{ matrix.ghc }})
+    name: Scotty web API (GHC 9.12)
     runs-on: ubuntu-latest
     timeout-minutes: 15
-
-    strategy:
-      fail-fast: false
-      matrix:
-        ghc:
-          - "9.12"
-          - "9.14"
 
     defaults:
       run:
@@ -80,7 +73,7 @@ jobs:
       - name: Set up Haskell
         uses: haskell-actions/setup@v2
         with:
-          ghc-version: ${{ matrix.ghc }}
+          ghc-version: "9.12"
           cabal-version: latest
 
       - name: Show tool versions
