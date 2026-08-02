@@ -1,6 +1,6 @@
 # Contributing to Awesome Haskell Next
 
-This document applies to the redesign developed on the `awesome-haskell-next` branch. The existing contribution process remains unchanged until the redesign is accepted.
+This document applies to the staged redesign described in `README.next.md`. The existing contribution process remains unchanged until the new entry point is activated and this file replaces the main contribution guide.
 
 ## Before contributing
 
