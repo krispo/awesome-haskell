@@ -3,7 +3,9 @@
 module Main (main) where
 
 import AwesomeHaskell.WebApi (application)
+import Data.ByteString (ByteString)
 import qualified Data.ByteString.Lazy as LBS
+import Data.Text (Text)
 import Network.HTTP.Types (methodGet, status200, status404)
 import Network.Wai (Application, defaultRequest, pathInfo, rawPathInfo, requestMethod)
 import Network.Wai.Test
@@ -15,7 +17,7 @@ import Network.Wai.Test
   , srequest
   )
 import Test.Tasty (TestTree, defaultMain, testGroup)
-import Test.Tasty.HUnit (Assertion, testCase, (@?=))
+import Test.Tasty.HUnit (testCase, (@?=))
 
 main :: IO ()
 main = do
@@ -39,14 +41,14 @@ tests app =
         simpleStatus response @?= status404
     ]
 
-get :: Application -> LBS.ByteString -> [Data.Text.Text] -> IO SResponse
+get :: Application -> ByteString -> [Text] -> IO SResponse
 get app rawPath segments =
   runSession
     ( srequest
         ( SRequest
             defaultRequest
               { requestMethod = methodGet
-              , rawPathInfo = LBS.toStrict rawPath
+              , rawPathInfo = rawPath
               , pathInfo = segments
               }
             LBS.empty
