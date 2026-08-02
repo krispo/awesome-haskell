@@ -1,0 +1,146 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/krispo/awesome-haskell/schema/entry.schema.json",
+  "title": "Awesome Haskell entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "name",
+    "kind",
+    "category",
+    "url",
+    "summary",
+    "role",
+    "last_reviewed"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "name": {"type": "string", "minLength": 1},
+    "kind": {
+      "enum": [
+        "project",
+        "package",
+        "documentation",
+        "course",
+        "book",
+        "article",
+        "community",
+        "index",
+        "production-case-study"
+      ]
+    },
+    "category": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://"
+    },
+    "summary": {"type": "string", "minLength": 10},
+    "role": {"enum": ["discovery", "recommendation"]},
+    "recommendation": {
+      "enum": ["recommended", "alternative", "experimental", "historical"]
+    },
+    "maintenance_status": {
+      "enum": [
+        "active",
+        "stable",
+        "experimental",
+        "maintenance-mode",
+        "historical",
+        "archived",
+        "unknown"
+      ]
+    },
+    "recommended_for": {"$ref": "#/$defs/nonEmptyStringList"},
+    "consider_alternatives_when": {"$ref": "#/$defs/nonEmptyStringList"},
+    "tradeoffs": {"$ref": "#/$defs/nonEmptyStringList"},
+    "alternatives": {"$ref": "#/$defs/nonEmptyStringList"},
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["type", "url", "supports"],
+        "properties": {
+          "type": {
+            "enum": [
+              "official-documentation",
+              "release-notes",
+              "repository",
+              "compatibility",
+              "maintainer-statement",
+              "production-report",
+              "ci",
+              "other"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://"
+          },
+          "supports": {"type": "string", "minLength": 10}
+        }
+      }
+    },
+    "last_reviewed": {"type": "string", "format": "date"},
+    "reviewers": {"$ref": "#/$defs/nonEmptyStringList"},
+    "affiliation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reviewer", "relationship"],
+      "properties": {
+        "reviewer": {"type": "string", "minLength": 1},
+        "relationship": {"type": "string", "minLength": 1}
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {"role": {"const": "recommendation"}},
+        "required": ["role"]
+      },
+      "then": {
+        "required": [
+          "recommendation",
+          "maintenance_status",
+          "recommended_for",
+          "consider_alternatives_when",
+          "tradeoffs",
+          "alternatives",
+          "evidence",
+          "reviewers"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {"role": {"const": "discovery"}},
+        "required": ["role"]
+      },
+      "then": {
+        "not": {
+          "anyOf": [
+            {"required": ["recommendation"]},
+            {"required": ["recommended_for"]},
+            {"required": ["consider_alternatives_when"]},
+            {"required": ["tradeoffs"]}
+          ]
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "nonEmptyStringList": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"type": "string", "minLength": 1}
+    }
+  }
+}
