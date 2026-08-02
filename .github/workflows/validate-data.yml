@@ -1,0 +1,41 @@
+name: Validate structured data
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "data/**"
+      - "schema/**"
+      - "scripts/validate_data.py"
+      - ".github/workflows/validate-data.yml"
+  pull_request:
+    paths:
+      - "data/**"
+      - "schema/**"
+      - "scripts/validate_data.py"
+      - ".github/workflows/validate-data.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install validator dependencies
+        run: python -m pip install "jsonschema[format]>=4.23,<5" "PyYAML>=6,<7"
+
+      - name: Validate YAML entries
+        run: python scripts/validate_data.py
