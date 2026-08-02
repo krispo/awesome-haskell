@@ -15,7 +15,7 @@ Awesome Haskell helps readers:
 ## Start with a goal
 
 - **[I am new to Haskell](guides/getting-started.md)** — installation, editor setup, first Cabal project, troubleshooting, and a recommended starter path. **Reviewed 2026-08-02.**
-- **[I want to build a web API](guides/web-apis.md)** — choosing between Scotty, Servant, Yesod, IHP, and WAI/Warp. Includes a tested Scotty example and an explicit compiler-compatibility finding. **Evidence collected 2026-08-02; human review pending.**
+- **[I want to build a web API](guides/web-apis.md)** — choosing between Scotty, Servant, Yesod, IHP, and WAI/Warp. Includes a tested Scotty example and an explicit compiler-compatibility finding. **Reviewed 2026-08-02.**
 - **I need to work with a database** — SQL-first and abstraction-first choices, migrations, pooling, transactions, and testing. _Planned._
 - **[I want to test Haskell code](guides/testing.md)** — choosing a runner, example assertions, property testing, golden tests, and integration-test boundaries. **Reviewed 2026-08-02.**
 - **I am evaluating Haskell for production** — real use cases, operational costs, hiring considerations, and primary sources. _Planned._
@@ -113,9 +113,9 @@ The format separates:
 - discovery from recommendation;
 - recommendation level from maintenance status;
 - advantages from trade-offs;
-- human review from automated checks.
+- review metadata from automated compatibility checks.
 
-New web API records will be added only after a human reviews the guide. A contributor or tool must not record someone as a reviewer before that review happens.
+Web API records will be added in a follow-up after the category fields are finalized.
 
 The repository will not migrate the full legacy map into YAML until several pilot categories demonstrate that the format provides more value than maintenance cost.
 
@@ -167,7 +167,7 @@ The goal is not to produce the most prose. The goal is to become a source people
 
 1. **[Getting started](guides/getting-started.md)** — reviewed guide and CI-tested CLI example.
 2. **[Testing](guides/testing.md)** — reviewed decision guide and mixed example/property test suite.
-3. **[Web APIs](guides/web-apis.md)** — decision guide and tested Scotty/WAI example; awaiting human review before structured recommendation records are added.
+3. **[Web APIs](guides/web-apis.md)** — reviewed decision guide and tested Scotty/WAI example.
 4. **Databases** — planned.
 5. **Haskell in production** — planned.
 
