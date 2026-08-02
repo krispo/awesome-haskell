@@ -16,16 +16,16 @@ The project began as a broad, categorized collection of libraries, tools, Hackag
 
 ## Start with a goal
 
-The finished guide should let readers enter through a task rather than requiring them to understand the whole taxonomy first.
+The guide lets readers enter through a task rather than requiring them to understand the whole taxonomy first.
 
-- **I am new to Haskell** — installation, first project, editor setup, learning path, and a small recommended starter stack.
-- **I want to build a web API** — major approaches, trade-offs, database options, deployment concerns, and runnable examples.
-- **I need to work with a database** — SQL-first and abstraction-first choices, migrations, pooling, and testing.
-- **I want to test Haskell code** — unit, property, integration, and golden testing tools.
-- **I am evaluating Haskell for production** — real use cases, strengths, operational costs, hiring considerations, and primary sources.
-- **I want to explore the ecosystem** — the broad categorized map of projects, packages, resources, and Hackage indexes.
+- **[I am new to Haskell](guides/getting-started.md)** — installation, first project, editor setup, core tools, troubleshooting, and a recommended starter path. **Reviewed 2026-08-02.**
+- **I want to build a web API** — major approaches, trade-offs, database options, deployment concerns, and runnable examples. _Planned._
+- **I need to work with a database** — SQL-first and abstraction-first choices, migrations, pooling, and testing. _Planned._
+- **I want to test Haskell code** — unit, property, integration, and golden testing tools. _Planned._
+- **I am evaluating Haskell for production** — real use cases, strengths, operational costs, hiring considerations, and primary sources. _Planned._
+- **[I want to explore the ecosystem](README.md)** — the broad categorized map of projects, packages, resources, and Hackage indexes.
 
-These paths are being built incrementally. See [`VISION.md`](VISION.md) for the full direction and [`docs/README_AUDIT.md`](docs/README_AUDIT.md) for the migration plan.
+See [`VISION.md`](VISION.md) for the full direction and [`docs/README_AUDIT.md`](docs/README_AUDIT.md) for the migration plan.
 
 ## How entries will be organized
 
@@ -103,7 +103,7 @@ The goal is not to compete on the amount of generated prose. The goal is to beco
 
 The new model will first be tested on a small set of high-value sections:
 
-1. Getting started;
+1. **[Getting started](guides/getting-started.md)** — first reviewed vertical slice;
 2. Web APIs;
 3. Databases;
 4. Testing;
@@ -133,7 +133,8 @@ During the transition:
 - [`README.md`](README.md) contains the original broad ecosystem map;
 - [`README.next.md`](README.next.md) is the proposed new entry point;
 - [`VISION.md`](VISION.md) defines the mission and editorial principles;
-- [`docs/README_AUDIT.md`](docs/README_AUDIT.md) records what should be preserved, improved, or retired.
+- [`docs/README_AUDIT.md`](docs/README_AUDIT.md) records what should be preserved, improved, or retired;
+- [`guides/getting-started.md`](guides/getting-started.md) demonstrates the first reviewed task-oriented guide.
 
 The original README will only be replaced after the new entry point is useful on its own. History and attribution will be preserved.
 
