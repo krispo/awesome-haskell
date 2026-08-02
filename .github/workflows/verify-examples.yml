@@ -1,0 +1,62 @@
+name: Verify examples
+
+on:
+  push:
+    branches:
+      - master
+      - awesome-haskell-next
+    paths:
+      - "examples/**"
+      - ".github/workflows/verify-examples.yml"
+  pull_request:
+    paths:
+      - "examples/**"
+      - ".github/workflows/verify-examples.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  beginner-cli:
+    name: Beginner CLI (GHC ${{ matrix.ghc }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    strategy:
+      fail-fast: false
+      matrix:
+        ghc:
+          - "9.12"
+          - "9.14"
+
+    defaults:
+      run:
+        working-directory: examples/beginner-cli
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Haskell
+        uses: haskell-actions/setup@v2
+        with:
+          ghc-version: ${{ matrix.ghc }}
+          cabal-version: latest
+
+      - name: Show tool versions
+        run: |
+          ghc --version
+          cabal --version
+
+      - name: Check package metadata
+        run: cabal check
+
+      - name: Build
+        run: cabal build all
+
+      - name: Test
+        run: cabal test all --test-show-details=direct
+
+      - name: Run example
+        run: cabal run hello-haskell -- Ada Lovelace
