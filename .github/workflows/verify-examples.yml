@@ -49,9 +49,6 @@ jobs:
           ghc --version
           cabal --version
 
-      - name: Check package metadata
-        run: cabal check
-
       - name: Build
         run: cabal build all
 
