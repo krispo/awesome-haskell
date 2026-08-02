@@ -27,6 +27,31 @@ The guide lets readers enter through a task rather than requiring them to unders
 
 See [`VISION.md`](VISION.md) for the full direction and [`docs/README_AUDIT.md`](docs/README_AUDIT.md) for the migration plan.
 
+## Verified examples
+
+Recommendations become more trustworthy when readers can inspect and run the same code that CI verifies.
+
+### [Beginner CLI](examples/beginner-cli)
+
+A deliberately small Cabal project demonstrating:
+
+- a reusable pure library module;
+- a separate executable entry point;
+- a test suite without hidden framework machinery;
+- compiler warnings enabled centrally;
+- command-line arguments;
+- automated builds and tests on GHC 9.12 and 9.14.
+
+Run it from `examples/beginner-cli`:
+
+```sh
+cabal build all
+cabal test all --test-show-details=direct
+cabal run hello-haskell -- Ada Lovelace
+```
+
+The workflow is defined in [`.github/workflows/verify-examples.yml`](.github/workflows/verify-examples.yml). More examples should only be added when they clarify a real decision or eliminate meaningful setup uncertainty.
+
 ## How entries will be organized
 
 Important categories will have two complementary sections.
@@ -103,7 +128,7 @@ The goal is not to compete on the amount of generated prose. The goal is to beco
 
 The new model will first be tested on a small set of high-value sections:
 
-1. **[Getting started](guides/getting-started.md)** — first reviewed vertical slice;
+1. **[Getting started](guides/getting-started.md)** — first reviewed guide with a [CI-tested CLI example](examples/beginner-cli);
 2. Web APIs;
 3. Databases;
 4. Testing;
@@ -134,7 +159,9 @@ During the transition:
 - [`README.next.md`](README.next.md) is the proposed new entry point;
 - [`VISION.md`](VISION.md) defines the mission and editorial principles;
 - [`docs/README_AUDIT.md`](docs/README_AUDIT.md) records what should be preserved, improved, or retired;
-- [`guides/getting-started.md`](guides/getting-started.md) demonstrates the first reviewed task-oriented guide.
+- [`guides/getting-started.md`](guides/getting-started.md) demonstrates the first reviewed task-oriented guide;
+- [`examples/beginner-cli`](examples/beginner-cli) demonstrates the first runnable, tested example;
+- [`.github/workflows/verify-examples.yml`](.github/workflows/verify-examples.yml) verifies examples across supported compilers.
 
 The original README will only be replaced after the new entry point is useful on its own. History and attribution will be preserved.
 
