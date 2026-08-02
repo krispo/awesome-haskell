@@ -81,6 +81,17 @@ Broader discovery material:
 
 This preserves breadth without pretending that every link is an equal recommendation.
 
+## Structured recommendations
+
+The pilot format is documented in [`docs/ENTRY_FORMAT.md`](docs/ENTRY_FORMAT.md). It deliberately separates:
+
+- discovery from recommendation;
+- recommendation level from maintenance status;
+- human review dates from automated metadata;
+- advantages from explicit trade-offs.
+
+The first structured recommendation is [`data/toolchain-management/ghcup.yaml`](data/toolchain-management/ghcup.yaml), derived from the reviewed newcomer guide. The repository will not migrate the full legacy list into YAML until several pilot categories prove that the format is maintainable.
+
 ## Evidence, not rankings
 
 Awesome Haskell will not rank projects using GitHub stars, download counts, or commit frequency alone. Those signals can provide context, but none of them proves that a tool is appropriate, maintained, or production-ready.
@@ -151,6 +162,8 @@ A proposed highlighted recommendation should normally explain the use case, rati
 
 Please avoid adding unexplained promotional links. Broad ecosystem links remain welcome when they are relevant and correctly categorized, but highlighted recommendations use a higher standard.
 
+See [`CONTRIBUTING.next.md`](CONTRIBUTING.next.md) for the redesign's contribution rules and review checklist.
+
 ## Current repository layout
 
 During the transition:
@@ -158,7 +171,10 @@ During the transition:
 - [`README.md`](README.md) contains the original broad ecosystem map;
 - [`README.next.md`](README.next.md) is the proposed new entry point;
 - [`VISION.md`](VISION.md) defines the mission and editorial principles;
+- [`CONTRIBUTING.next.md`](CONTRIBUTING.next.md) defines contribution and evidence standards;
 - [`docs/README_AUDIT.md`](docs/README_AUDIT.md) records what should be preserved, improved, or retired;
+- [`docs/ENTRY_FORMAT.md`](docs/ENTRY_FORMAT.md) documents the pilot structured-data format;
+- [`data/toolchain-management/ghcup.yaml`](data/toolchain-management/ghcup.yaml) is the first structured recommendation;
 - [`guides/getting-started.md`](guides/getting-started.md) demonstrates the first reviewed task-oriented guide;
 - [`examples/beginner-cli`](examples/beginner-cli) demonstrates the first runnable, tested example;
 - [`.github/workflows/verify-examples.yml`](.github/workflows/verify-examples.yml) verifies examples across supported compilers.
