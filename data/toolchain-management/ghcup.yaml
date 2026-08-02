@@ -1,0 +1,32 @@
+schema_version: 1
+name: GHCup
+kind: project
+category: toolchain-management
+url: https://www.haskell.org/ghcup/
+summary: Installer and version manager for GHC, Cabal, Haskell Language Server, and Stack.
+role: recommendation
+recommendation: recommended
+maintenance_status: active
+recommended_for:
+  - newcomers installing the standard Haskell toolchain
+  - developers switching between supported compiler versions
+consider_alternatives_when:
+  - the project standardizes on Nix or another reproducible environment manager
+  - system policy requires distribution-managed compiler packages
+tradeoffs:
+  - adds a toolchain-management layer that developers must understand
+  - the recommended compiler may intentionally lag behind the newest release
+alternatives:
+  - Nix
+  - system packages
+  - manually managed installations
+evidence:
+  - type: official-documentation
+    url: https://www.haskell.org/ghcup/
+    supports: canonical role as an installer and manager for the standard Haskell toolchain
+  - type: official-documentation
+    url: https://www.haskell.org/ghcup/guide/
+    supports: recommended and latest release channels plus tool-management behavior
+last_reviewed: 2026-08-02
+reviewers:
+  - krispo
