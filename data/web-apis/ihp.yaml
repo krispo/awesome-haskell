@@ -1,0 +1,36 @@
+schema_version: 2
+name: IHP
+kind: project
+category: web-api
+url: https://ihp.digitallyinduced.com/Guide/
+summary: Integrated Haskell application platform combining a web framework with PostgreSQL, Nix, generated code, and development tooling.
+role: recommendation
+recommendation: alternative
+maintenance_status: active
+recommended_for:
+  - rapid development of database-backed web products
+  - teams that want PostgreSQL, Nix, generators, routing, views, and authentication as one platform
+  - applications that need both server-rendered HTML and JSON endpoints
+consider_alternatives_when:
+  - Nix and generated code do not fit the team's development model
+  - the project needs only a small routing library or API layer
+  - independent package selection and easier component replacement are priorities
+tradeoffs:
+  - IHP is substantially more opinionated than a routing library
+  - Nix, generated code, PostgreSQL conventions, and IHP project structure become part of the operating model
+  - adopting isolated pieces is less natural than adopting the platform as a whole
+  - migration away from integrated conventions may cost more than migration from a smaller library stack
+alternatives:
+  - Yesod
+  - Scotty
+  - Servant
+  - WAI
+  - Warp
+evidence:
+  - type: official-documentation
+    url: https://ihp.digitallyinduced.com/Guide/
+    supports: integrated Nix environment, PostgreSQL workflow, routing, views, forms, authentication, JSON APIs, and deployment guidance
+  - type: official-documentation
+    url: https://ihp.digitallyinduced.com/api-docs/index.html
+    supports: current public API documentation for the IHP framework packages
+checked_on: 2026-08-03
