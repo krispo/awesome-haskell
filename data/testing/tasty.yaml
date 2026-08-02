@@ -1,4 +1,4 @@
-schema_version: 1
+schema_version: 2
 name: Tasty
 kind: package
 category: testing
@@ -29,6 +29,4 @@ evidence:
   - type: ci
     url: https://github.com/krispo/awesome-haskell/actions
     supports: repository example builds and runs a Tasty suite on GHC 9.12 and 9.14
-last_reviewed: 2026-08-02
-reviewers:
-  - krispo
+checked_on: 2026-08-02
