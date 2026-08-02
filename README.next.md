@@ -96,6 +96,7 @@ Current pilot records include:
 
 - [`data/toolchain-management/ghcup.yaml`](data/toolchain-management/ghcup.yaml);
 - [`data/testing/tasty.yaml`](data/testing/tasty.yaml);
+- [`data/testing/hspec.yaml`](data/testing/hspec.yaml);
 - [`data/testing/quickcheck.yaml`](data/testing/quickcheck.yaml);
 - [`data/testing/hedgehog.yaml`](data/testing/hedgehog.yaml).
 
