@@ -1,0 +1,6 @@
+packages: .
+
+tests: True
+
+package awesome-haskell-web-api-scotty
+  ghc-options: -Werror
