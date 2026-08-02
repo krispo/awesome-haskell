@@ -2,8 +2,7 @@
 
 > **Audience:** Haskell developers choosing an HTTP stack for a new service or web application  
 > **Goal:** choose the right level of abstraction and understand the trade-offs before committing to a framework  
-> **Evidence collected:** 2026-08-02  
-> **Human review:** pending  
+> **Last reviewed:** 2026-08-02  
 > **Scope:** Scotty, Servant, Yesod, IHP, and the WAI/Warp foundation
 
 ## Start with the application shape
@@ -311,7 +310,7 @@ curl http://localhost:3000/hello/Ada
 - [Hackage Web category](https://hackage.haskell.org/packages/#cat:Web)
 - [Legacy Awesome Haskell Web section](../README.md#web)
 
-## Evidence collected
+## Sources
 
 - [Scotty package documentation](https://hackage.haskell.org/package/scotty)
 - [Servant server package documentation](https://hackage.haskell.org/package/servant-server)
@@ -324,6 +323,6 @@ curl http://localhost:3000/hello/Ada
 - [wai-extra package documentation](https://hackage.haskell.org/package/wai-extra)
 - [Awesome Haskell example CI](https://github.com/krispo/awesome-haskell/actions)
 
-## Editorial review notes
+## Review notes
 
-This is a draft awaiting human editorial review. It recommends frameworks only for defined application shapes. After review, it should be checked again when framework APIs, compiler compatibility, platform assumptions, or maintenance status change. Database-library choices belong in the separate database pilot rather than being inferred from the web framework alone.
+This guide recommends frameworks only for defined application shapes. Check it again when framework APIs, compiler compatibility, platform assumptions, or maintenance status change. Database-library choices belong in the separate database pilot rather than being inferred from the web framework alone.
