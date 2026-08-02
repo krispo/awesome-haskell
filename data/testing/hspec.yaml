@@ -1,4 +1,4 @@
-schema_version: 1
+schema_version: 2
 name: Hspec
 kind: package
 category: testing
@@ -30,6 +30,4 @@ evidence:
   - type: official-documentation
     url: https://hspec.github.io/quickcheck.html
     supports: direct property-testing integration with QuickCheck
-last_reviewed: 2026-08-02
-reviewers:
-  - krispo
+checked_on: 2026-08-02
