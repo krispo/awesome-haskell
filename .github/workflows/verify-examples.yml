@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - master
-      - awesome-haskell-next
     paths:
       - "examples/**"
       - ".github/workflows/verify-examples.yml"
