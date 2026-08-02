@@ -82,7 +82,7 @@ Useful evidence may include:
 - runnable examples;
 - CI verification;
 - primary-source production reports;
-- a visible `last reviewed` date.
+- a visible `checked on` date.
 
 Automated signals must support human judgement, not replace it.
 
@@ -90,8 +90,7 @@ Automated signals must support human judgement, not replace it.
 
 Awesome Haskell should provide durable and inspectable evidence that a generated answer usually cannot guarantee:
 
-- recommendations reviewed by identifiable contributors;
-- change history and public discussion;
+- recommendations backed by public change history and discussion;
 - reproducible examples that are compiled in CI;
 - explicit dates and compatibility information;
 - recorded disagreements and trade-offs;
@@ -122,7 +121,7 @@ When maintainership, compatibility, or production readiness is unclear, say so.
 
 ### Make maintenance visible
 
-Important claims should have a review date and, where possible, a source.
+Important claims should have a check date and, where possible, a source.
 
 ### Curate highlights, index the rest
 
@@ -139,17 +138,22 @@ The exact vocabulary may change, but statuses should distinguish at least:
 - **Maintenance mode** — maintained conservatively, with limited new development;
 - **Historical** — important for context but generally not a new-project choice;
 - **Archived** — explicitly discontinued or archived upstream;
-- **Unknown** — not recently reviewed or insufficient evidence.
+- **Unknown** — not recently checked or insufficient evidence.
 
 ## Proposed entry model
 
 A structured entry may eventually contain fields like:
 
 ```yaml
-name: servant
+schema_version: 2
+name: Servant
+kind: package
 category: web-api
+url: https://docs.servant.dev/
 summary: Type-level DSL for describing web APIs.
-status: recommended
+role: recommendation
+recommendation: recommended
+maintenance_status: active
 recommended_for:
   - large typed APIs
   - shared server and client contracts
@@ -159,10 +163,14 @@ consider_alternatives_when:
 tradeoffs:
   - expressive but conceptually demanding
   - compile-time cost can grow with API complexity
-sources:
-  - https://docs.servant.dev/
-last_reviewed: YYYY-MM-DD
-example: examples/web-servant
+alternatives:
+  - Scotty
+  - Yesod
+evidence:
+  - type: official-documentation
+    url: https://docs.servant.dev/
+    supports: typed API descriptions and generated server and client interfaces
+checked_on: YYYY-MM-DD
 ```
 
 The schema must remain practical. We should not collect metadata that nobody can maintain.
@@ -185,7 +193,7 @@ For each pilot area, aim to provide:
 - a curated `Start here` section;
 - comparisons and trade-offs;
 - broader discovery links;
-- project status and review dates;
+- project status and check dates;
 - at least one runnable example where useful.
 
 ## First milestone
@@ -223,7 +231,7 @@ A proposed highlighted recommendation should normally include:
 3. at least one important trade-off;
 4. nearby alternatives;
 5. evidence for maintenance or stability claims;
-6. a review date;
+6. a check date;
 7. disclosure when the contributor is affiliated with the project.
 
 Broad discovery links may use a lighter standard, but they must still be relevant and correctly categorized.
@@ -237,7 +245,7 @@ Possible signals:
 - a newcomer can find a viable starting stack without reading the entire repository;
 - a developer can compare major options in a category;
 - highlighted examples continue to build in CI;
-- stale recommendations are detected and reviewed;
+- stale recommendations are detected and checked;
 - maintainers contribute corrections and trade-offs;
 - other documentation and AI tools can cite or consume the structured data;
 - the number of unexplained links decreases even if the total coverage remains broad.
@@ -249,7 +257,7 @@ Possible signals:
 - Which metadata can be maintained reliably without creating excessive work?
 - Should structured data become the source of truth immediately or only after the pilot categories are validated?
 - How should disputed recommendations be documented?
-- Who should be invited as additional reviewers or maintainers?
+- Who should be invited as additional maintainers or contributors?
 
 ## Working principle
 
