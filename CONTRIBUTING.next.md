@@ -41,7 +41,7 @@ A reviewed recommendation uses a higher standard. It should answer:
 - What are its important trade-offs?
 - Which nearby alternatives were considered?
 - What current evidence supports the recommendation?
-- When was the entry reviewed?
+- When were the entry's claims and sources checked?
 
 A recommendation should normally include at least one limitation. A contribution that only lists advantages is incomplete.
 
@@ -81,15 +81,15 @@ The working vocabulary is:
 
 Recommendation level is separate from maintenance status. For example, a stable project can be either recommended or discovery-only.
 
-## Review dates
+## Check dates
 
-Reviewed guidance must include a `last_reviewed` date in ISO format:
+Structured entries must include a `checked_on` date in ISO format:
 
 ```text
 YYYY-MM-DD
 ```
 
-A review date means that a contributor inspected the cited evidence on that date. It does not guarantee future compatibility.
+The date means that the entry's claims and cited evidence were inspected on that date. It does not guarantee future compatibility.
 
 ## Runnable examples
 
@@ -119,7 +119,7 @@ Contributors must disclose when they are:
 - selling services primarily based on the project;
 - otherwise likely to benefit from its inclusion.
 
-Affiliation does not disqualify a contribution. Hidden affiliation damages trust.
+Affiliation does not disqualify a contribution. Hidden affiliation damages trust. Disclose it in the Pull Request description or discussion; contributor identity is not duplicated inside each YAML entry.
 
 ## Writing style
 
@@ -142,7 +142,7 @@ For a discovery entry:
 - [ ] The link is canonical and works.
 - [ ] The description is neutral and specific.
 - [ ] The category is appropriate.
-- [ ] Affiliation is disclosed.
+- [ ] Affiliation is disclosed in the Pull Request when relevant.
 
 For a reviewed recommendation:
 
@@ -151,8 +151,8 @@ For a reviewed recommendation:
 - [ ] Alternatives are named.
 - [ ] Maintenance or stability claims have evidence.
 - [ ] Primary sources are included where available.
-- [ ] `last_reviewed` is present.
-- [ ] Affiliation is disclosed.
+- [ ] `checked_on` is present.
+- [ ] Affiliation is disclosed in the Pull Request when relevant.
 - [ ] Any runnable example builds and passes CI.
 
 ## Scope control
