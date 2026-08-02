@@ -13,6 +13,10 @@ on:
       - ".github/workflows/verify-examples.yml"
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: read
 
@@ -56,3 +60,33 @@ jobs:
 
       - name: Run example
         run: cabal run hello-haskell -- Ada Lovelace
+
+  web-api-scotty:
+    name: Scotty web API (GHC 9.12)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    defaults:
+      run:
+        working-directory: examples/web-api-scotty
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Haskell
+        uses: haskell-actions/setup@v2
+        with:
+          ghc-version: "9.12"
+          cabal-version: latest
+
+      - name: Show tool versions
+        run: |
+          ghc --version
+          cabal --version
+
+      - name: Build
+        run: cabal build all
+
+      - name: Test routes through WAI
+        run: cabal test all --test-show-details=direct
