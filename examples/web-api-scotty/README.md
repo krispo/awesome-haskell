@@ -10,6 +10,14 @@ A deliberately small JSON service demonstrating a low-ceremony Haskell HTTP stac
 
 The example keeps route definitions separate from the executable entry point. Tests build the same WAI application as the server without opening a network port.
 
+## Compiler compatibility
+
+CI verifies this example with **GHC 9.12**.
+
+As checked on 2026-08-02, the released `scotty-0.30` dependency graph does not resolve with GHC 9.14.1. Scotty requires `http-api-data < 0.7`, and the matching `http-api-data-0.6.3` release declares `base < 4.22`; GHC 9.14.1 provides `base-4.22`.
+
+The example does not use `allow-newer`, because overriding the bound would no longer demonstrate officially declared compatibility. Recheck this note when Scotty or `http-api-data` publishes a compatible release.
+
 ## Build
 
 From this directory:
