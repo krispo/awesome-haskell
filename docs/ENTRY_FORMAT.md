@@ -1,6 +1,6 @@
 # Entry format
 
-> Status: pilot format; expected to change after the first three reviewed categories
+> Status: pilot format; expected to change after the first three checked categories
 
 The structured format exists to make claims inspectable and reusable. It should remain small enough for contributors to maintain by hand.
 
@@ -12,22 +12,22 @@ The format should:
 - separate maintenance status from recommendation level;
 - record important trade-offs;
 - link claims to evidence;
-- expose when a human last reviewed the entry;
+- expose when the entry's claims and sources were last checked;
 - remain readable without a custom application.
 
-The format should not attempt to mirror every field available from GitHub or Hackage.
+The format should not attempt to mirror every field available from GitHub or Hackage. Contributor identity and responsibility already live in Git history and Pull Request discussion, so they are not duplicated in each entry.
 
 ## Minimal discovery entry
 
 ```yaml
-schema_version: 1
+schema_version: 2
 name: Hoogle
 kind: project
 category: api-search
 url: https://hoogle.haskell.org/
 summary: Search Haskell APIs by name or approximate type signature.
 role: discovery
-last_reviewed: 2026-08-02
+checked_on: 2026-08-02
 ```
 
 Required fields for discovery entries:
@@ -39,12 +39,12 @@ Required fields for discovery entries:
 - `url`;
 - `summary`;
 - `role`;
-- `last_reviewed`.
+- `checked_on`.
 
-## Reviewed recommendation entry
+## Recommendation entry
 
 ```yaml
-schema_version: 1
+schema_version: 2
 name: GHCup
 kind: project
 category: toolchain-management
@@ -68,16 +68,16 @@ evidence:
   - type: official-documentation
     url: https://www.haskell.org/ghcup/
     supports: canonical installation and tool-management role
-last_reviewed: 2026-08-02
-reviewers:
-  - krispo
+checked_on: 2026-08-02
 ```
 
 ## Fields
 
 ### `schema_version`
 
-Integer identifying the entry format. The pilot uses `1`.
+Integer identifying the entry format. The current pilot format uses `2`.
+
+Version 2 replaces `last_reviewed` with `checked_on` and removes contributor-specific `reviewers` and `affiliation` metadata from entries.
 
 ### `name`
 
@@ -126,7 +126,7 @@ One neutral sentence describing what the entry is. Do not put recommendation cla
 Either:
 
 - `discovery` — indexed for exploration;
-- `recommendation` — reviewed as a choice for a defined use case.
+- `recommendation` — presented as a choice for a defined use case.
 
 ### `recommendation`
 
@@ -167,7 +167,7 @@ Situations where another option may fit better. This field prevents recommendati
 
 Important costs, limitations, complexity, operational considerations, or compatibility concerns.
 
-At least one trade-off is required for a reviewed recommendation.
+At least one trade-off is required for a recommendation.
 
 ### `alternatives`
 
@@ -194,25 +194,15 @@ Working evidence types:
 - `ci`;
 - `other`.
 
-### `last_reviewed`
+### `checked_on`
 
-ISO date in `YYYY-MM-DD` format. This records human inspection, not automated refresh time.
+ISO date in `YYYY-MM-DD` format. It records when the entry's claims and cited evidence were last checked. It is not an automated refresh timestamp and does not guarantee future compatibility.
 
-### `reviewers`
+## Contributor identity and affiliation
 
-GitHub usernames of contributors who reviewed the recommendation and its evidence.
+Authorship and responsibility are recorded by Git history and Pull Request discussion rather than repeated in every YAML entry.
 
-### `affiliation`
-
-Optional disclosure when a contributor has a relationship with the project.
-
-Example:
-
-```yaml
-affiliation:
-  reviewer: example-user
-  relationship: project maintainer
-```
+Contributors should still disclose relevant project affiliations in the Pull Request description or discussion when an inclusion could create a conflict of interest.
 
 ## What should remain automated
 
@@ -230,13 +220,13 @@ Automation must not independently decide:
 - whether a project is recommended;
 - whether infrequent activity means abandonment;
 - whether one framework is better than another;
-- whether a production claim is credible without reviewing its source.
+- whether a production claim is credible without checking its source.
 
 ## Pilot policy
 
 Do not migrate the entire legacy README into YAML yet.
 
-First create structured entries only for projects discussed in the pilot guides. After three categories have been reviewed, evaluate:
+First create structured entries only for projects discussed in the pilot guides. After three categories have been checked, evaluate:
 
 - which fields contributors actually use;
 - which fields create maintenance burden;

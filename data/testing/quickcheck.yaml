@@ -1,4 +1,4 @@
-schema_version: 1
+schema_version: 2
 name: QuickCheck
 kind: package
 category: property-testing
@@ -33,6 +33,4 @@ evidence:
   - type: ci
     url: https://github.com/krispo/awesome-haskell/actions
     supports: repository example runs a QuickCheck property through Tasty on GHC 9.12 and 9.14
-last_reviewed: 2026-08-02
-reviewers:
-  - krispo
+checked_on: 2026-08-02

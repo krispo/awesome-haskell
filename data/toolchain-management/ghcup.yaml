@@ -1,4 +1,4 @@
-schema_version: 1
+schema_version: 2
 name: GHCup
 kind: project
 category: toolchain-management
@@ -27,6 +27,4 @@ evidence:
   - type: official-documentation
     url: https://www.haskell.org/ghcup/guide/
     supports: recommended and latest release channels plus tool-management behavior
-last_reviewed: 2026-08-02
-reviewers:
-  - krispo
+checked_on: 2026-08-02

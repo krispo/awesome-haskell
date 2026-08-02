@@ -12,10 +12,10 @@
     "url",
     "summary",
     "role",
-    "last_reviewed"
+    "checked_on"
   ],
   "properties": {
-    "schema_version": {"const": 1},
+    "schema_version": {"const": 2},
     "name": {"type": "string", "minLength": 1},
     "kind": {
       "enum": [
@@ -88,17 +88,7 @@
         }
       }
     },
-    "last_reviewed": {"type": "string", "format": "date"},
-    "reviewers": {"$ref": "#/$defs/nonEmptyStringList"},
-    "affiliation": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": ["reviewer", "relationship"],
-      "properties": {
-        "reviewer": {"type": "string", "minLength": 1},
-        "relationship": {"type": "string", "minLength": 1}
-      }
-    }
+    "checked_on": {"type": "string", "format": "date"}
   },
   "allOf": [
     {
@@ -114,8 +104,7 @@
           "consider_alternatives_when",
           "tradeoffs",
           "alternatives",
-          "evidence",
-          "reviewers"
+          "evidence"
         ]
       }
     },
