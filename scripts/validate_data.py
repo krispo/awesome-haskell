@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import json
 import sys
+from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 
@@ -16,9 +17,20 @@ SCHEMA_PATH = ROOT / "schema" / "entry.schema.json"
 DATA_ROOT = ROOT / "data"
 
 
+def normalize_yaml_values(value: Any) -> Any:
+    """Convert YAML-native date values into the ISO strings used by the schema."""
+    if isinstance(value, (date, datetime)):
+        return value.isoformat()
+    if isinstance(value, list):
+        return [normalize_yaml_values(item) for item in value]
+    if isinstance(value, dict):
+        return {key: normalize_yaml_values(item) for key, item in value.items()}
+    return value
+
+
 def load_yaml(path: Path) -> Any:
     with path.open("r", encoding="utf-8") as handle:
-        return yaml.safe_load(handle)
+        return normalize_yaml_values(yaml.safe_load(handle))
 
 
 def format_path(parts: list[Any]) -> str:
