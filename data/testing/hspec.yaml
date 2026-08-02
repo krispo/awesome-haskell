@@ -1,0 +1,35 @@
+schema_version: 1
+name: Hspec
+kind: package
+category: testing
+url: https://hspec.github.io/
+summary: Behavior-oriented Haskell testing framework with expectations, hooks, discovery, and property-test integration.
+role: recommendation
+recommendation: alternative
+maintenance_status: active
+recommended_for:
+  - teams that prefer nested behavior descriptions and expectation syntax
+  - projects with an established Hspec suite and conventions
+  - tests that benefit from Hspec hooks and automatic spec discovery
+consider_alternatives_when:
+  - one runner must combine a wide variety of provider-based test styles explicitly
+  - nested prose would obscure simple function-level behavior
+  - the team prefers explicit test-tree composition
+tradeoffs:
+  - deeply nested descriptions can hide setup and concrete values
+  - automatic discovery introduces naming and build-tool conventions
+  - mixed testing styles may require integration packages
+alternatives:
+  - Tasty
+  - HUnit
+  - sydtest
+evidence:
+  - type: official-documentation
+    url: https://hspec.github.io/
+    supports: expectations, hooks, discovery, filtering, parallel execution, and QuickCheck integration
+  - type: official-documentation
+    url: https://hspec.github.io/quickcheck.html
+    supports: direct property-testing integration with QuickCheck
+last_reviewed: 2026-08-02
+reviewers:
+  - krispo

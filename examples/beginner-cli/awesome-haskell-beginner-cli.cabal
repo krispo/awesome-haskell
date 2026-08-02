@@ -40,5 +40,8 @@ test-suite beginner-cli-test
   hs-source-dirs:     test
   build-depends:
     base >=4.17 && <5,
-    awesome-haskell-beginner-cli
+    awesome-haskell-beginner-cli,
+    tasty >=1.5 && <1.6,
+    tasty-hunit >=0.10 && <0.11,
+    tasty-quickcheck >=0.11 && <0.12
   default-language:   GHC2021

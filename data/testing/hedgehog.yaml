@@ -1,0 +1,35 @@
+schema_version: 1
+name: Hedgehog
+kind: package
+category: property-testing
+url: https://hackage.haskell.org/package/hedgehog
+summary: Property-based testing library with integrated shrinking and explicit generator composition.
+role: recommendation
+recommendation: alternative
+maintenance_status: active
+recommended_for:
+  - projects where generated values must preserve complex invariants while shrinking
+  - teams that prefer explicit generators over widespread Arbitrary instances
+  - systems using state-machine property testing
+consider_alternatives_when:
+  - the project depends heavily on existing QuickCheck instances and integrations
+  - contributors are already productive with QuickCheck and have no shrinking problem to solve
+  - minimizing property-testing dependencies and concepts is more important than integrated shrinking
+tradeoffs:
+  - smaller ecosystem and fewer ready-made integrations than QuickCheck
+  - explicit generator design can require more initial work
+  - adopting it alongside QuickCheck may create two overlapping testing styles
+alternatives:
+  - QuickCheck
+  - SmallCheck
+  - LeanCheck
+evidence:
+  - type: official-documentation
+    url: https://hackage.haskell.org/package/hedgehog
+    supports: integrated shrinking, monadic generators, range combinators, diffs, and state-machine testing
+  - type: compatibility
+    url: https://hackage.haskell.org/package/tasty-hedgehog
+    supports: integration with Tasty and compatibility with current Hedgehog and Tasty release ranges
+last_reviewed: 2026-08-02
+reviewers:
+  - krispo
