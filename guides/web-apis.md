@@ -2,8 +2,9 @@
 
 > **Audience:** Haskell developers choosing an HTTP stack for a new service or web application  
 > **Goal:** choose the right level of abstraction and understand the trade-offs before committing to a framework  
-> **Last reviewed:** 2026-08-02  
-> **Review scope:** Scotty, Servant, Yesod, IHP, and the WAI/Warp foundation
+> **Evidence collected:** 2026-08-02  
+> **Human review:** pending  
+> **Scope:** Scotty, Servant, Yesod, IHP, and the WAI/Warp foundation
 
 ## Start with the application shape
 
@@ -81,12 +82,12 @@ Trade-offs:
 
 The repository example uses the released `scotty-0.30` package.
 
-As reviewed on 2026-08-02:
+As checked on 2026-08-02:
 
 - **GHC 9.12:** dependency resolution, build, and route tests are verified in CI;
 - **GHC 9.14.1:** the released dependency graph does not resolve because Scotty requires `http-api-data < 0.7`, while the matching `http-api-data-0.6.3` declares `base < 4.22`; GHC 9.14.1 provides `base-4.22`.
 
-The project intentionally does not use `allow-newer` to hide this mismatch. A bound override may happen to compile, but it would no longer demonstrate the officially declared package compatibility. This should be reviewed when Scotty or `http-api-data` releases change.
+The project intentionally does not use `allow-newer` to hide this mismatch. A bound override may happen to compile, but it would no longer demonstrate the officially declared package compatibility. This should be checked again when Scotty or `http-api-data` releases change.
 
 This limitation is evidence about the current released dependency graph, not proof that Scotty's route implementation is fundamentally incompatible with GHC 9.14.
 
@@ -310,7 +311,7 @@ curl http://localhost:3000/hello/Ada
 - [Hackage Web category](https://hackage.haskell.org/packages/#cat:Web)
 - [Legacy Awesome Haskell Web section](../README.md#web)
 
-## Evidence used for this review
+## Evidence collected
 
 - [Scotty package documentation](https://hackage.haskell.org/package/scotty)
 - [Servant server package documentation](https://hackage.haskell.org/package/servant-server)
@@ -323,6 +324,6 @@ curl http://localhost:3000/hello/Ada
 - [wai-extra package documentation](https://hackage.haskell.org/package/wai-extra)
 - [Awesome Haskell example CI](https://github.com/krispo/awesome-haskell/actions)
 
-## Review notes
+## Editorial review notes
 
-This guide recommends frameworks only for defined application shapes. Review it when framework APIs, compiler compatibility, platform assumptions, or maintenance status change. Database-library choices belong in the separate database pilot rather than being inferred from the web framework alone.
+This is a draft awaiting human editorial review. It recommends frameworks only for defined application shapes. After review, it should be checked again when framework APIs, compiler compatibility, platform assumptions, or maintenance status change. Database-library choices belong in the separate database pilot rather than being inferred from the web framework alone.
