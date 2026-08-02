@@ -15,7 +15,7 @@ Awesome Haskell helps readers:
 ## Start with a goal
 
 - **[I am new to Haskell](guides/getting-started.md)** — installation, editor setup, first Cabal project, troubleshooting, and a recommended starter path. **Reviewed 2026-08-02.**
-- **[I want to build a web API](guides/web-apis.md)** — choosing between Scotty, Servant, Yesod, IHP, and WAI/Warp. Includes a tested Scotty example and an explicit compiler-compatibility finding. **Reviewed 2026-08-02.**
+- **[I want to build a web API](guides/web-apis.md)** — choosing between Scotty, Servant, Yesod, IHP, and WAI/Warp. Includes a tested Scotty example and an explicit compiler-compatibility finding. **Evidence collected 2026-08-02; human review pending.**
 - **I need to work with a database** — SQL-first and abstraction-first choices, migrations, pooling, transactions, and testing. _Planned._
 - **[I want to test Haskell code](guides/testing.md)** — choosing a runner, example assertions, property testing, golden tests, and integration-test boundaries. **Reviewed 2026-08-02.**
 - **I am evaluating Haskell for production** — real use cases, operational costs, hiring considerations, and primary sources. _Planned._
