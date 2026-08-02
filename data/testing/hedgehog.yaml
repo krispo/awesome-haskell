@@ -1,4 +1,4 @@
-schema_version: 1
+schema_version: 2
 name: Hedgehog
 kind: package
 category: property-testing
@@ -30,6 +30,4 @@ evidence:
   - type: compatibility
     url: https://hackage.haskell.org/package/tasty-hedgehog
     supports: integration with Tasty and compatibility with current Hedgehog and Tasty release ranges
-last_reviewed: 2026-08-02
-reviewers:
-  - krispo
+checked_on: 2026-08-02
