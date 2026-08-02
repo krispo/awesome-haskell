@@ -21,7 +21,7 @@ The guide lets readers enter through a task rather than requiring them to unders
 - **[I am new to Haskell](guides/getting-started.md)** — installation, first project, editor setup, core tools, troubleshooting, and a recommended starter path. **Reviewed 2026-08-02.**
 - **I want to build a web API** — major approaches, trade-offs, database options, deployment concerns, and runnable examples. _Planned._
 - **I need to work with a database** — SQL-first and abstraction-first choices, migrations, pooling, and testing. _Planned._
-- **I want to test Haskell code** — unit, property, integration, and golden testing tools. _Planned._
+- **[I want to test Haskell code](guides/testing.md)** — choosing a runner, example assertions, property testing, golden tests, and integration-test boundaries. **Reviewed 2026-08-02.**
 - **I am evaluating Haskell for production** — real use cases, strengths, operational costs, hiring considerations, and primary sources. _Planned._
 - **[I want to explore the ecosystem](README.md)** — the broad categorized map of projects, packages, resources, and Hackage indexes.
 
@@ -37,7 +37,9 @@ A deliberately small Cabal project demonstrating:
 
 - a reusable pure library module;
 - a separate executable entry point;
-- a test suite without hidden framework machinery;
+- Tasty suite organization;
+- focused assertions with tasty-hunit;
+- a generated property with tasty-quickcheck;
 - compiler warnings enabled centrally;
 - command-line arguments;
 - automated builds and tests on GHC 9.12 and 9.14.
@@ -90,7 +92,14 @@ The pilot format is documented in [`docs/ENTRY_FORMAT.md`](docs/ENTRY_FORMAT.md)
 - human review dates from automated metadata;
 - advantages from explicit trade-offs.
 
-The first structured recommendation is [`data/toolchain-management/ghcup.yaml`](data/toolchain-management/ghcup.yaml), derived from the reviewed newcomer guide. The repository will not migrate the full legacy list into YAML until several pilot categories prove that the format is maintainable.
+Current pilot records include:
+
+- [`data/toolchain-management/ghcup.yaml`](data/toolchain-management/ghcup.yaml);
+- [`data/testing/tasty.yaml`](data/testing/tasty.yaml);
+- [`data/testing/quickcheck.yaml`](data/testing/quickcheck.yaml);
+- [`data/testing/hedgehog.yaml`](data/testing/hedgehog.yaml).
+
+The repository will not migrate the full legacy list into YAML until several pilot categories prove that the format is maintainable.
 
 ## Evidence, not rankings
 
@@ -137,12 +146,12 @@ The goal is not to compete on the amount of generated prose. The goal is to beco
 
 ## Pilot areas
 
-The new model will first be tested on a small set of high-value sections:
+The new model is being tested on a small set of high-value sections:
 
-1. **[Getting started](guides/getting-started.md)** — first reviewed guide with a [CI-tested CLI example](examples/beginner-cli);
+1. **[Getting started](guides/getting-started.md)** — reviewed guide with a [CI-tested CLI example](examples/beginner-cli);
 2. Web APIs;
 3. Databases;
-4. Testing;
+4. **[Testing](guides/testing.md)** — reviewed decision guide with example-based and property-based tests in CI;
 5. Haskell in production.
 
 A pilot section is complete only when it contains both a useful decision guide and broader discovery links. Runnable examples will be added where they materially reduce uncertainty.
@@ -174,9 +183,10 @@ During the transition:
 - [`CONTRIBUTING.next.md`](CONTRIBUTING.next.md) defines contribution and evidence standards;
 - [`docs/README_AUDIT.md`](docs/README_AUDIT.md) records what should be preserved, improved, or retired;
 - [`docs/ENTRY_FORMAT.md`](docs/ENTRY_FORMAT.md) documents the pilot structured-data format;
-- [`data/toolchain-management/ghcup.yaml`](data/toolchain-management/ghcup.yaml) is the first structured recommendation;
-- [`guides/getting-started.md`](guides/getting-started.md) demonstrates the first reviewed task-oriented guide;
-- [`examples/beginner-cli`](examples/beginner-cli) demonstrates the first runnable, tested example;
+- [`data/`](data) contains reviewed machine-readable recommendations;
+- [`guides/getting-started.md`](guides/getting-started.md) provides the newcomer path;
+- [`guides/testing.md`](guides/testing.md) provides the testing decision guide;
+- [`examples/beginner-cli`](examples/beginner-cli) demonstrates a runnable application and mixed test suite;
 - [`.github/workflows/verify-examples.yml`](.github/workflows/verify-examples.yml) verifies examples across supported compilers.
 
 The original README will only be replaced after the new entry point is useful on its own. History and attribution will be preserved.
