@@ -1,0 +1,38 @@
+schema_version: 1
+name: QuickCheck
+kind: package
+category: property-testing
+url: https://hackage.haskell.org/package/QuickCheck
+summary: Property-based testing library using generated inputs and shrinking to find small counterexamples.
+role: recommendation
+recommendation: recommended
+maintenance_status: active
+recommended_for:
+  - teams adopting property-based testing for the first time in Haskell
+  - projects benefiting from the broad QuickCheck ecosystem and existing Arbitrary instances
+  - suites integrated with Tasty or Hspec
+consider_alternatives_when:
+  - generator invariants make integrated shrinking a decisive requirement
+  - state-machine testing is central and Hedgehog's model is preferred
+  - implicit Arbitrary instances obscure the domain distribution
+tradeoffs:
+  - default generators may produce valid but irrelevant data
+  - custom shrinkers can violate invariants or produce poor counterexamples
+  - passing properties can provide false confidence when input distributions are not inspected
+alternatives:
+  - Hedgehog
+  - SmallCheck
+  - LeanCheck
+evidence:
+  - type: official-documentation
+    url: https://hackage.haskell.org/package/QuickCheck
+    supports: generated property testing, shrinking, data classification, and custom generators
+  - type: release-notes
+    url: https://hackage.haskell.org/package/QuickCheck-2.18.0.0/changelog
+    supports: continued releases and maintenance as of 2026
+  - type: ci
+    url: https://github.com/krispo/awesome-haskell/actions
+    supports: repository example runs a QuickCheck property through Tasty on GHC 9.12 and 9.14
+last_reviewed: 2026-08-02
+reviewers:
+  - krispo
