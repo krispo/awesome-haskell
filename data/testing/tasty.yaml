@@ -1,0 +1,34 @@
+schema_version: 1
+name: Tasty
+kind: package
+category: testing
+url: https://hackage.haskell.org/package/tasty
+summary: Extensible test runner that combines multiple testing styles in one test tree.
+role: recommendation
+recommendation: recommended
+maintenance_status: active
+recommended_for:
+  - new libraries and applications that need a general-purpose test runner
+  - projects combining unit, property, golden, or integration tests
+  - teams that value explicit suite composition and command-line filtering
+consider_alternatives_when:
+  - the team strongly prefers Hspec's nested behavior-specification style
+  - the project has a tiny suite and does not need provider packages or runner features
+tradeoffs:
+  - assertions and test styles are supplied by separate provider packages
+  - explicit TestTree construction can feel verbose in large suites
+  - automatic test discovery requires additional tooling and conventions
+alternatives:
+  - Hspec
+  - HUnit
+  - custom Cabal test runner
+evidence:
+  - type: official-documentation
+    url: https://hackage.haskell.org/package/tasty
+    supports: provider architecture, test-tree model, filtering, parallel execution, and resource management
+  - type: ci
+    url: https://github.com/krispo/awesome-haskell/actions
+    supports: repository example builds and runs a Tasty suite on GHC 9.12 and 9.14
+last_reviewed: 2026-08-02
+reviewers:
+  - krispo
