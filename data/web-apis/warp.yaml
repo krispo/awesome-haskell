@@ -1,0 +1,35 @@
+schema_version: 2
+name: Warp
+kind: package
+category: web-api
+url: https://hackage.haskell.org/package/warp
+summary: HTTP server for WAI applications with support for HTTP/1.0, HTTP/1.1, and HTTP/2.
+role: recommendation
+recommendation: recommended
+maintenance_status: active
+recommended_for:
+  - running WAI applications as standalone Haskell HTTP services
+  - framework and middleware stacks that expose a WAI Application
+  - services that need configurable server settings without replacing the WAI interface
+consider_alternatives_when:
+  - the deployment platform supplies a different WAI handler or process model
+  - CGI or FastCGI integration is required instead of a standalone HTTP server
+  - the application needs a framework rather than only an HTTP server
+tradeoffs:
+  - Warp does not provide routing, request decoding, authentication, or application structure
+  - TLS termination, trusted proxy handling, timeouts, limits, and shutdown policy still require explicit deployment decisions
+  - low-level server settings must be reviewed against the application's operational requirements
+  - choosing Warp does not remove the need for reverse-proxy and observability design
+alternatives:
+  - warp-tls
+  - wai-handler-fastcgi
+  - platform-provided WAI handler
+  - reverse-proxy-managed application runtime
+evidence:
+  - type: official-documentation
+    url: https://hackage.haskell.org/package/warp
+    supports: Warp's role as a lightweight WAI server and its documented HTTP protocol support
+  - type: ci
+    url: https://github.com/krispo/awesome-haskell/actions
+    supports: the repository Scotty example uses the WAI and Warp-based stack in verified builds
+checked_on: 2026-08-03

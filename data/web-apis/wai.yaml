@@ -1,0 +1,36 @@
+schema_version: 2
+name: WAI
+kind: package
+category: web-api
+url: https://hackage.haskell.org/package/wai
+summary: Common Haskell web application interface for receiving requests, producing responses, and composing middleware independently of a specific framework or server.
+role: recommendation
+recommendation: recommended
+maintenance_status: stable
+recommended_for:
+  - middleware, gateways, adapters, and framework integration code
+  - applications that need exact request and response control
+  - combining independently produced Haskell web applications behind one interface
+consider_alternatives_when:
+  - ordinary business routes would benefit from framework-provided routing and decoding
+  - a shared typed API contract should drive server and client tooling
+  - forms, sessions, authentication, and full-stack conventions dominate the application
+tradeoffs:
+  - routing, parameter decoding, error conventions, and application structure become project responsibilities
+  - direct use can grow into a locally invented framework without deliberate boundaries
+  - low-level flexibility requires teams to establish conventions supplied by higher-level frameworks
+  - WAI defines the application interface but does not itself provide an HTTP server
+alternatives:
+  - Scotty
+  - Servant
+  - Yesod
+  - IHP
+  - Warp
+evidence:
+  - type: official-documentation
+    url: https://hackage.haskell.org/package/wai
+    supports: the Application request-response interface and interoperability with WAI handlers such as Warp
+  - type: ci
+    url: https://github.com/krispo/awesome-haskell/actions
+    supports: the repository Scotty example is converted to a WAI Application and tested in process
+checked_on: 2026-08-03

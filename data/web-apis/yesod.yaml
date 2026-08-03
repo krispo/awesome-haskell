@@ -1,0 +1,39 @@
+schema_version: 2
+name: Yesod
+kind: project
+category: web-api
+url: https://www.yesodweb.com/
+summary: Cohesive Haskell web framework with typed routes and established support for handlers, templates, forms, sessions, authentication, and persistence.
+role: recommendation
+recommendation: alternative
+maintenance_status: active
+recommended_for:
+  - server-rendered web applications with forms, sessions, and authentication
+  - teams that want typed routes across handlers, templates, and application code
+  - products that benefit from an established full-stack application structure
+consider_alternatives_when:
+  - the service is primarily a small JSON API with straightforward routes
+  - a reusable type-level API contract is more important than full-stack features
+  - the team prefers assembling independent libraries instead of adopting a cohesive framework
+tradeoffs:
+  - Template Haskell, quasiquoters, generated routes, and framework-specific monads increase the conceptual surface
+  - the framework shapes application structure more strongly than Scotty or direct WAI
+  - adopting the broader stack may be excessive for an API-only service
+  - teams must evaluate how the Yesod and Persistent ecosystems fit their database and deployment choices
+alternatives:
+  - Scotty
+  - Servant
+  - IHP
+  - WAI
+  - Warp
+evidence:
+  - type: official-documentation
+    url: https://www.yesodweb.com/
+    supports: type-safe routing and the framework's integrated web-development approach
+  - type: official-documentation
+    url: https://www.yesodweb.com/book
+    supports: routing, handlers, templates, forms, sessions, persistence, authentication, authorization, and deployment
+  - type: official-documentation
+    url: https://hackage.haskell.org/package/yesod-core
+    supports: core dispatch, handlers, content, JSON, and widget functionality
+checked_on: 2026-08-03

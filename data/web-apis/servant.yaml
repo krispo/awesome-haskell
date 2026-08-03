@@ -1,0 +1,36 @@
+schema_version: 2
+name: Servant
+kind: project
+category: web-api
+url: https://docs.servant.dev/
+summary: Family of packages for describing HTTP APIs with type-level combinators and interpreting them as servers and related tooling.
+role: recommendation
+recommendation: alternative
+maintenance_status: active
+recommended_for:
+  - contract-heavy APIs with many typed endpoints
+  - systems that share one API description between servers and generated clients
+  - services where typed captures, request bodies, responses, and status codes remove meaningful ambiguity
+consider_alternatives_when:
+  - a small service benefits more from direct route readability than contract reuse
+  - the team is not prepared for type-level diagnostics and abstractions
+  - server-rendered forms, sessions, and application structure are the dominant requirements
+tradeoffs:
+  - type-level API definitions have a real learning and compiler-diagnostic cost
+  - authentication, custom errors, streaming, and unusual protocol behavior can require advanced machinery
+  - clients, documentation, and other interpretations use additional packages whose compatibility must be managed
+  - large API types need named sub-APIs and module boundaries to remain navigable
+alternatives:
+  - Scotty
+  - Yesod
+  - IHP
+  - WAI
+  - Warp
+evidence:
+  - type: official-documentation
+    url: https://docs.servant.dev/en/stable/tutorial/index.html
+    supports: API-as-a-type model, serving APIs, clients, links, documentation, and authentication
+  - type: official-documentation
+    url: https://hackage.haskell.org/package/servant-server
+    supports: server handlers and routing derived from a Servant API description
+checked_on: 2026-08-03

@@ -1,0 +1,39 @@
+schema_version: 2
+name: Scotty
+kind: package
+category: web-api
+url: https://hackage.haskell.org/package/scotty
+summary: Minimal Haskell web framework with direct routes on top of WAI and Warp.
+role: recommendation
+recommendation: recommended
+maintenance_status: active
+recommended_for:
+  - small JSON services, webhook receivers, and prototypes
+  - first Haskell APIs where direct route definitions reduce setup overhead
+  - services whose domain logic already lives outside HTTP handlers
+consider_alternatives_when:
+  - a shared typed contract must drive servers, clients, or documentation
+  - the application needs an integrated full-stack framework
+  - the project must use GHC 9.14 with only currently declared package bounds
+tradeoffs:
+  - endpoint contracts are not represented once for reuse by server and client tooling
+  - large route sets require deliberate module boundaries and handler conventions
+  - validation, authentication policy, domain errors, and API documentation need explicit design
+  - the released scotty-0.30 dependency graph does not resolve with GHC 9.14.1 without overriding declared bounds
+alternatives:
+  - Servant
+  - Yesod
+  - IHP
+  - WAI
+  - Warp
+evidence:
+  - type: official-documentation
+    url: https://hackage.haskell.org/package/scotty
+    supports: direct route API, WAI application compatibility, and Warp as the default server
+  - type: compatibility
+    url: https://github.com/krispo/awesome-haskell/blob/master/guides/web-apis.md
+    supports: checked GHC 9.12 support and the released dependency-bound limitation on GHC 9.14.1
+  - type: ci
+    url: https://github.com/krispo/awesome-haskell/actions
+    supports: repository example builds and exercises Scotty routes through a WAI application on GHC 9.12
+checked_on: 2026-08-03
