@@ -448,6 +448,10 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 * [Haskell Symposium 2015](https://www.youtube.com/playlist?list=PLnqUlCo055hV5dPC-4VWeXzhI8ooeTsVy)
 * [Haskell Implementors' Workshop 2015](https://www.youtube.com/playlist?list=PLnqUlCo055hVfNkQHP7z43r10yNo-mc7B)
 
+## Newsletters
+
+* [Haskell Weekly](https://discu.eu/weekly/haskell/)
+
 ## Packages
 
 * [Stackage](https://www.stackage.org/) - is a stable source of Haskell packages, "Stable Hackage".
