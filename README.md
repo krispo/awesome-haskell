@@ -28,6 +28,7 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
     - [Network](#network)
     - [Number Theory](#number-theory)
     - [Web / Frameworks](#web--frameworks)
+- [Servant](https://github.com/haskell-servant/servant) - Type-level web DSL for Haskell.
     - [Text Processing](#text-processing)
     - [Messaging](#messaging)
     - [Languages](#languages)
