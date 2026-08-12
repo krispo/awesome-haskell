@@ -434,6 +434,8 @@ An auxiliary list of awesome Haskell links, frameworks, libraries and software. 
 * [Learn You a Haskell](https://www.youtube.com/watch?v=NBKnY7Z_w3I&list=PLPqPwGvHPSZB-urE6QFjKYt6AGXcZqJUh) - Video lectures to accompany the book "Learn You a Haskell for Great Good!"
 * [Awesome Haskell Videos](https://github.com/andys8/awesome-haskell-videos) - Curated list of Haskell talks and tutorials
 * [IHP Casts](https://ihpcasts.com/ShowEpisode?episodeId=ab384647-3665-4a36-b5e5-e05fea6c2288) Learn to build type-safe web apps with Haskell and IHP
+* [What we can do with Terms, Types, and Kinds in Haskell](https://www.youtube.com/watch?v=Nne8Ow7SF7U) A Haskell expert Vitaly Bragilevsky demonstrates Haskell features that make programming at the level of types possible. 
+* [Do we really need OOD and FDD?](https://www.youtube.com/watch?v=KW9U6HMKEgk) Functional Declarative Design (FDD) vs. Object-Oriented Design (OOD).
 
 ## Courses
 
